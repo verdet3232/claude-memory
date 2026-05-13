@@ -27,4 +27,3 @@ _Populated as predictions accumulate. Tags below 40% validation rate flagged for
 ---
 
 *Source: triple-crown-race-brief scheduled task on T-1 (prediction logged) and T+1 (scored). Calibration pass after Belmont T+1 writes calibration-2026.md.*
-<!-- E2E PAT verification: 05-13-2026 by Claude session — PAT works for direct GitHub commits. Will be removed by triple-crown-race-brief on next T-1. -->
