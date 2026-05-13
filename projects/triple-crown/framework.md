@@ -1,6 +1,6 @@
 # Triple Crown Handicapping Framework v2
 
-**Owner:** Ryan Shook · **Created:** 05-02-2026 · **Updated:** 05-02-2026
+**Owner:** Ryan Shook · **Created:** 05-02-2026 · **Updated:** 05-13-2026
 **Source of truth.** All dashboards regenerate from this file.
 
 ---
@@ -98,19 +98,94 @@ Modern Belmont winners are increasingly fresh horses. Targeting the Belmont spec
 
 ## 2026 Triple Crown — Working File
 
-### Preakness Stakes — Saturday, 05-16-2026
+### Preakness Stakes — Saturday, 05-16-2026 · 151st running
 
 - **Venue:** Laurel Park (Pimlico under construction)
 - **Distance:** 1 3/16 mi
-- **Post:** 7:01 PM ET, NBC
-- **Likely Derby horse running back:** Golden Tempo (TBD — DeVaux non-committal in winner's circle)
-- **Watch list (new shooters):** Likely Wood Memorial / Arkansas Derby horses skipping Derby
-- **Key handicap:** Field will be small. Bounce factor on Golden Tempo is HIGH (deep closer that ran a hard final furlong).
+- **Post:** 7:01 PM ET, NBC · Race 13 of 14
+- **Field:** 14 horses (largest since 2011)
+- **Purse:** $2,000,000
+- **Derby horses returning:** Ocelli (3rd), Incredibolt (6th), Robusta (14th). **Golden Tempo (Derby winner) skipping** — pointing for Belmont 06-06-2026.
 
-**Pre-race tracker (update as entries finalize):**
-| Horse | Trainer/Jockey | ML | SSI | Pace | Stbl | Jock | B-Fav | Drift | Bounce | Composite |
-|-------|----------------|-----|-----|------|------|------|-------|-------|--------|-----------|
-| _TBD as entries open ~ 05-13-2026_ | | | | | | | | | | |
+#### Pace projection (T-3, 05-13-2026)
+
+10 of 14 horses have an early/early-presser preference. The lead cannot accommodate that many — expect a contested, fast pace early. **Closers and stalkers are favored** by the geometric setup. Watch: Ocelli, Talkin, Bull by the Horns, and Incredibolt are the four most likely beneficiaries.
+
+#### 9-Factor Composite Scoring (Preakness weights)
+
+Weights: SSI 0.6× · Pace 1.0× · Stable 1.0× · Jockey 1.0× · B-Fav 1.0× · Drift 1.0× · **Bounce 1.5×** · Distance 0.5× · Layoff 0.8×. ML Drift held at 5 (neutral) until final tote close on race day.
+
+| PP | Horse | Sire | Trainer / Jockey | ML | SSI | Pace | Stbl | Jock | B-Fav | Drift | Bounce | Dist | Layoff | **Composite** |
+|---:|---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 5 | **Talkin** | Good Magic | Gargan / Irad Ortiz Jr. | 20-1 | 7 | 8 | 6 | 10 | 8 | 5 | 10 | 7 | 8 | **7.87** ★ |
+| 9 | **Iron Honor** | Nyquist | C. Brown / F. Prat | 9-2 | 6 | 4 | 9 | 9 | 6 | 5 | 10 | 6 | 8 | **7.26** ★ |
+| 6 | **Chip Honcho** | Connect | Asmussen / J. Ortiz | 5-1 | 6 | 4 | 8 | 9 | 6 | 5 | 10 | 6 | 9 | **7.24** ★ |
+| 1 | **Taj Mahal** | Nyquist | B. Russell / S. Russell | 5-1 | 6 | 4 | 9 | 8 | 5 | 5 | 10 | 6 | 9 | **7.12** ★ |
+| 8 | **Bull by the Horns** | Essential Quality | S. Joseph Jr. / Husbands | 30-1 | 8 | 8 | 7 | 5 | 3 | 5 | 10 | 8 | 9 | **7.02** ★ |
+| 7 | The Hell We Did | Authentic | Fincher / Saez | 15-1 | 6 | 6 | 5 | 8 | 5 | 5 | 10 | 6 | 8 | **6.79** ★ |
+| 12 | **Incredibolt** | Bolt d'Oro | R. Mott / Torres | 5-1 | 7 | 9 | 7 | 8 | 8 | 5 | 5 | 7 | 6 | **6.79** ★ |
+| 2 | **Ocelli** | Connect | Beckman / Gaffalione | 6-1 | 6 | 9 | 7 | 8 | 9 | 5 | **4** | 6 | 6 | **6.60** ★ |
+| 3 | Crupper | Candy Ride | Von Hemmel / Alvarado | 30-1 | 8 | 4 | 6 | 6 | 4 | 5 | 10 | 8 | 8 | **6.57** ★ |
+| 11 | Corona de Oro | Bolt d'Oro | Stewart / Velazquez | 30-1 | 7 | 3 | 5 | 8 | 4 | 5 | 10 | 7 | 8 | **6.44** ★ |
+| 10 | Napoleon Solo | Liam's Map | Summers / Lopez | 8-1 | 5 | 3 | 6 | 6 | 6 | 5 | 10 | 4 | 5 | 5.95 |
+| 14 | Pretty Boy Miah | Beau Liam | Englehart / Santana Jr. | 15-1 | 5 | 3 | 6 | 6 | 2 | 5 | 10 | 5 | 7 | 5.73 |
+| 4 | Robusta | Accelerate | O'Neill / Bejarano | 30-1 | 6 | 4 | 6 | 5 | 2 | 5 | 8 | 6 | 6 | 5.40 |
+| 13 | Great White | Volatile | Ennis / Achard | 15-1 | 4 | 4 | 4 | 4 | 4 | 5 | 10 | 3 | 5 | 5.23 |
+
+★ = composite ≥ 6.0, the framework's "live alert" threshold. **10 of 14 horses qualify.**
+
+#### What the model sees that the market doesn't
+
+**Talkin (20-1) tops the framework at 7.87.** The signal stack: Irad Ortiz pickup (10), closer style in a fast-pace setup (8), beaten-favorite profile from 2nd Champagne G1 and 3rd Blue Grass G1 (8), six weeks fresh off the prep season (8), zero bounce risk (10). **The framework's value play.**
+
+**Ocelli (6-1) drops to 8th at 6.60 despite arguably the best raw form** — 3rd in the Derby, 3rd in the Wood, leading money winner. Why? **Bounce risk 4** drags her composite hard at 1.5× weight. Per the framework's tier list: "Derby winner or close 2nd/3rd with hard stretch run" = 4. She led in the stretch and finished 3rd a length back — textbook high-bounce profile. *The "Triple Crown story" is great TV but bad math* — the framework's exact lesson.
+
+**Incredibolt (5-1) gets a moderate bounce demote** to 5 (rallied 14→6 with a traffic-altered effort — not as taxing as Ocelli's stretch run). Composite 6.79 still — closer pace fit + rally style. The most live Derby returnee.
+
+**The 9-2 favorite Iron Honor lands 2nd at 7.26.** Brown/Prat rider upgrade, Wood trip excuse, bounce-risk-10 (skipped the Derby), but pace-compromised EP style and outside-then-inside post 9 in a 14-horse field hold him at 4 for Pace.
+
+#### Formal Prediction (T-3 · 05-13-2026)
+
+- **Win:** **Talkin** (composite 7.87, ML 20-1) — value play, rider-upgrade-driven
+- **Place:** Iron Honor (7.26, 9-2)
+- **Show:** Chip Honcho (7.24, 5-1)
+- **Exacta key:** Talkin **over** Iron Honor + Chip Honcho + Taj Mahal + Bull by the Horns
+- **Trifecta key:** Talkin / Iron Honor + Chip Honcho / Taj Mahal + Bull by the Horns + Incredibolt
+- **Longshot value:** Bull by the Horns (30-1, composite 7.02) — closer + Essential Quality stamina + fresh
+- **Confidence:** medium-low — model diverges sharply from market
+- **Rationale tags:** `rider-upgrade`, `pace-fit-closer`, `beaten-fav-G1G3`, `fresh-no-bounce`, `distance-neutral`
+- **Predicted winning Beyer:** 95-98
+
+#### Suggested bet allocation
+
+- 1u Talkin to win
+- 0.5u Talkin to place
+- 1u $1 exacta box: Talkin / Iron Honor / Chip Honcho
+- 0.5u $1 trifecta key: Talkin over (Iron Honor, Chip Honcho, Taj Mahal, Bull by the Horns) over (same plus Incredibolt)
+- 0.25u flier: Bull by the Horns to win at 30-1
+
+#### Race-day adjustments to watch (T-1, Fri 05-15-2026)
+
+- **ML Drift** is currently 5 (neutral). By race time update the Drift column with actual movement; recompute composites.
+- **Weather** — wet track shifts pace bias toward early speed, would compress closer advantage. No rain currently forecast through Saturday.
+- **Scratches** — if a heavy pace setter scratches (Napoleon Solo, Corona de Oro), pace projection softens.
+
+#### Post-race recap section (to be filled Sun 05-17-2026)
+
+**Order of finish:** _TBD_
+**Final time / pace fractions:** _TBD_
+**Beyer Speed Figure:** _TBD_ (vs. predicted 95-98)
+**Trip notes:** _TBD_
+**Prediction scoring:**
+- Win prediction (Talkin): _TBD_
+- Place / Show / Exacta hits: _TBD_
+- Beyer delta: _TBD_
+- Rationale-tag validation: `rider-upgrade` _TBD_, `pace-fit-closer` _TBD_, etc.
+
+#### Sources (scraped 05-12-2026)
+
+- [Preakness 2026 post positions, odds, jockeys, trainers — NBC Sports](https://www.nbcsports.com/horse-racing/news/2026-preakness-post-positions-full-draw-horses-starting-gate-order-odds-jockeys-trainers-owners)
+- [Preakness Stakes 2026: Odds, analysis of the 14-horse field — Horse Racing Nation (Matt Shifman)](https://www.horseracingnation.com/news/Preakness_Stakes_2026_Odds_and_analysis_of_the_14_horse_field_123)
 
 ### Belmont Stakes — Saturday, 06-06-2026
 
@@ -123,7 +198,7 @@ Modern Belmont winners are increasingly fresh horses. Targeting the Belmont spec
 **Pre-race tracker (update as entries finalize):**
 | Horse | Trainer/Jockey | ML | SSI | Pace | Stbl | Jock | B-Fav | Drift | Layoff | Composite |
 |-------|----------------|-----|-----|------|------|------|-------|-------|--------|-----------|
-| _TBD as entries open ~ 06-03-2026_ | | | | | | | | | | |
+| _TBD as entries open ~ 06-03-2026 — triple-crown-race-brief task will populate on T-7 (05-30-2026)_ | | | | | | | | | | |
 
 ---
 
@@ -133,30 +208,36 @@ Modern Belmont winners are increasingly fresh horses. Targeting the Belmont spec
 |------|------|--------|
 | 05-02-2026 | Derby post-mortem | Update v1 model gaps, identify bounce risks |
 | 05-04-2026 | Preakness watch list | Note likely entries from Wood/Arkansas Derby |
-| 05-13-2026 | Preakness entries open | Run framework, post composite scores |
+| 05-13-2026 | Preakness entries open | ✅ Run framework, post composite scores (this update) |
+| 05-15-2026 | Preakness T-1 brief | triple-crown-race-brief refresh w/ final odds |
 | 05-16-2026 | Preakness race | Lock predictions, run bets |
-| 05-18-2026 | Preakness post-mortem | What worked, what didn't, update framework v2.1 |
+| 05-17-2026 | Preakness T+1 recap | Score predictions, update framework v2.1 |
 | 05-19-2026 | Belmont watch list | Track Peter Pan, note skip-Preakness horses |
+| 05-30-2026 | Belmont T-7 brief | triple-crown-race-brief watchlist |
 | 06-03-2026 | Belmont entries | Run framework |
+| 06-05-2026 | Belmont T-1 brief | triple-crown-race-brief final brief |
 | 06-06-2026 | Belmont race | Lock predictions, run bets |
+| 06-07-2026 | Belmont T+1 recap | Score predictions; fire season calibration |
 | 06-08-2026 | Triple Crown wrap-up | Full post-mortem, framework v3 update |
 
 ---
 
 ## Linked: 2027 Derby Trail Tracker
 
-After Belmont 2026, the 2yo races leading to the 2027 Derby kick off in September. See `derby-2027-trail-tracker.md` for full schedule and horse-watch system.
+After Belmont 2026, the 2yo races leading to the 2027 Derby kick off in September. The seven key prep races for 2027 — Iroquois Stakes, Breeders' Cup Juvenile, Virginia Derby, Louisiana Derby, Florida Derby, Wood Memorial, Santa Anita Derby — are tracked by the `derby-prep-race-brief` scheduled task. See `projects/derby-2027/` for that flow.
 
 ## Cowork Automation Hook
 
-New scheduled task: `triple-crown-tracker` (recommended cadence)
+Active scheduled task: `triple-crown-race-brief` (created 05-13-2026)
 
 ```
-Race weeks: Daily 6:30 AM - update entries, scores, news
-Off-weeks: Sunday 8:00 PM - prep race results review
-Annual: Quarterly memory consolidation includes framework version bump
+Cron: 0 7 15 * * *  (daily 07:15 America/New_York)
+T-7 / T-1 / T+1 cadence around each Triple Crown leg
+Writes back to this file via Make.com → GitHub
+Logs predictions to projects/triple-crown/predictions/log.md
+Belmont T+1 fires the season-end framework calibration
 ```
 
-Source: `~/projects/triple-crown/framework.md`
-Output: `~/Dropbox/triple-crown-dashboard.html` (regenerated each run)
+Source: `~/projects/triple-crown/framework.md` (this file, on GitHub `verdet3232/claude-memory`)
+Renderer: Cowork artifact `derby-dashboard` (auto-refreshes on open via Firecrawl)
 Notify: Email to rshook74@gmail.com on race weeks
