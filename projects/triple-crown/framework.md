@@ -1,6 +1,6 @@
 # Triple Crown Handicapping Framework v2
 
-**Owner:** Ryan Shook · **Created:** 05-02-2026 · **Updated:** 05-13-2026
+**Owner:** Ryan Shook · **Created:** 05-02-2026 · **Updated:** 05-17-2026 (Preakness T+1 recap)
 **Source of truth.** All dashboards regenerate from this file.
 
 ---
@@ -170,17 +170,70 @@ Weights: SSI 0.6× · Pace 1.0× · Stable 1.0× · Jockey 1.0× · B-Fav 1.0× 
 - **Weather** — wet track shifts pace bias toward early speed, would compress closer advantage. No rain currently forecast through Saturday.
 - **Scratches** — if a heavy pace setter scratches (Napoleon Solo, Corona de Oro), pace projection softens.
 
-#### Post-race recap section (to be filled Sun 05-17-2026)
+#### Post-race recap (filled 05-17-2026)
 
-**Order of finish:** _TBD_
-**Final time / pace fractions:** _TBD_
-**Beyer Speed Figure:** _TBD_ (vs. predicted 95-98)
-**Trip notes:** _TBD_
+**Order of finish:**
+1. **Napoleon Solo** (Paco Lopez / Chad Summers, post-time 7.90-1, ML 8-1) — won by 1 1/4 lengths
+2. Iron Honor (F. Prat / C. Brown)
+3. Chip Honcho (J. Ortiz / Asmussen)
+4. Ocelli (Gaffalione / Beckman)
+5. Incredibolt (Torres / R. Mott)
+6. Bull by the Horns
+7. The Hell We Did
+8. Great White
+9. Robusta
+10. Taj Mahal (post-time favorite — led early, collapsed)
+11. Corona de Oro
+12. **Talkin** ← our win pick
+13. Crupper
+14. Pretty Boy Miah
+
+**Final time:** 1:58.69 — *slowest Preakness in 75 years*
+**Fractions:** :22.66 / :46.66 (Taj Mahal led through the half, then collapsed)
+**Beyer Speed Figure:** TBD — official figure not yet published as of 05-17-2026. Race time and "slowest in 75 years" framing suggest 80–85, well below our predicted 95–98.
+
 **Prediction scoring:**
-- Win prediction (Talkin): _TBD_
-- Place / Show / Exacta hits: _TBD_
-- Beyer delta: _TBD_
-- Rationale-tag validation: `rider-upgrade` _TBD_, `pace-fit-closer` _TBD_, etc.
+- **Win pick (Talkin, composite 7.87):** ❌ MISS — finished 12th. Biggest framework miss of the race.
+- **Place pick (Iron Honor, 7.26):** ✅ HIT — 2nd place
+- **Show pick (Chip Honcho, 7.24):** ✅ HIT — 3rd place
+- **Exacta box (Talkin / Iron Honor / Chip Honcho):** Iron–Chip permutation HIT (2-3 finish). Payout TBD from official results.
+- **Trifecta key (Talkin over...):** ❌ MISS — Napoleon Solo was not in our trifecta
+- **Longshot flier (Bull by the Horns, 30-1):** ❌ MISS — finished 6th
+- **Beyer delta:** Predicted 95–98 vs. actual TBD (likely well under 90 given the time)
+
+**Bet allocation P/L (per the locked allocation, 05-13):**
+- 1u Talkin WIN → −1u
+- 0.5u Talkin PLACE → −0.5u
+- 1u $1 exacta box Talkin/Iron/Chip → partial recovery via the Iron–Chip permutation (net pending official exacta payout)
+- 0.5u $1 trifecta key → −0.5u
+- 0.25u Bull by the Horns WIN → −0.25u
+- **Net:** meaningful loss; exact figure depends on the official 9–6 exacta payout
+
+**Trip notes & narrative:**
+- Pace shape played out exactly as projected at the macro level: Taj Mahal (post 1) went to the lead through :22.66 / :46.66 and collapsed to 10th — the "10 of 14 EP/presser" warning was validated.
+- BUT the winner Napoleon Solo (Pace 3 in our model) was a **stalker**, not a closer. He tracked Taj Mahal and pounced at the final turn. Our framework rated him 11th of 14 at composite **5.95 — below the 6.0 live-alert threshold**.
+- Iron Honor (Pace 4, our #2) ran the trip we expected: drafted behind the duel, closed late, strong 2nd.
+- Chip Honcho (Pace 4, our #3) similar — closed late for 3rd.
+- Ocelli's bounce demote (composite 6.60, finished 4th) was probably too harsh; she ran credibly off the Derby.
+
+**Rationale-tag validation:**
+- `rider-upgrade` (Talkin/Irad Ortiz Jr.): **FAILED** — Talkin 12th. Rider upgrade couldn't overcome poor trip / pace mismatch.
+- `pace-fit-closer`: **PARTIAL** — leaders died as predicted, but closers didn't capitalize; a stalker won. Refine: when 10+ EP/presser horses set up a duel, **stalkers benefit more than deep closers** (closers run out of ground if the overall pace is slow).
+- `beaten-fav-G1G3` (Talkin Champagne 2nd, Blue Grass 3rd): **FAILED** — historical G1/G3 placings didn't translate.
+- `fresh-no-bounce`: **NEUTRAL** — Talkin had bounce 10 but still ran 12th. Bounce factor is "necessary but not sufficient."
+- `distance-neutral`: NEUTRAL — no clear signal at 1 3/16.
+
+**Framework v2.1 calibration items (queue for Belmont prep, T-7 = 05-30-2026):**
+1. **Add a stalker premium for projected speed duels.** Current Pace score conflates "low pace fit" with "bad trip." When the projection flags an EP-heavy field, give stalkers a `Pace_Adjusted = Pace + 2` bonus. Would have lifted Napoleon Solo from 5.95 → ~6.6 and put him on the radar.
+2. **Soften bounce penalty for Derby 3rd-place horses.** Ocelli (Bounce 4) finished 4th — perfectly respectable. The "stretch run = high bounce" rule should distinguish wire-to-wire winners from come-from-behind 3rd-place finishers (less taxing pattern).
+3. **Composite ≥ 6.0 hit rate this race:** 2 of top-3 in the money (Iron Honor 2nd, Chip Honcho 3rd); winner came from below threshold. The threshold is correctly screening "in-the-money" candidates but missing winners that get a perfect trip from sub-6.0 starting position.
+4. **Beyer prediction needs a track/pace modulator.** Predicted 95–98 (extrapolated off Derby figures) was way high vs. an actual race that was the slowest in 75 years. Add a "projected pace × surface condition" deflator to the Beyer band.
+
+**Belmont (06-06-2026, Saratoga 1 1/4 mi) implications:**
+- Ocelli's credible 4th keeps her on the Belmont watch list if connections re-route.
+- Napoleon Solo (Summers/Lopez — trainer's first TC win) — Belmont participation TBD; watch press today/tomorrow.
+- Iron Honor closed well at 9.5F; the longer trip at Saratoga should suit. Promote on Belmont T-7 tracker.
+- Apply the v2.1 weighting changes above to the Belmont T-7 watch list build.
 
 #### Sources (scraped 05-12-2026)
 
@@ -211,7 +264,7 @@ Weights: SSI 0.6× · Pace 1.0× · Stable 1.0× · Jockey 1.0× · B-Fav 1.0× 
 | 05-13-2026 | Preakness entries open | ✅ Run framework, post composite scores (this update) |
 | 05-15-2026 | Preakness T-1 brief | triple-crown-race-brief refresh w/ final odds |
 | 05-16-2026 | Preakness race | Lock predictions, run bets |
-| 05-17-2026 | Preakness T+1 recap | Score predictions, update framework v2.1 |
+| 05-17-2026 | Preakness T+1 recap | ✅ Done — see recap above. Calibration items queued for v2.1. |
 | 05-19-2026 | Belmont watch list | Track Peter Pan, note skip-Preakness horses |
 | 05-30-2026 | Belmont T-7 brief | triple-crown-race-brief watchlist |
 | 06-03-2026 | Belmont entries | Run framework |
