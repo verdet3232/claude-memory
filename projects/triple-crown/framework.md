@@ -1,6 +1,6 @@
-# Triple Crown Handicapping Framework v2
+# Triple Crown Handicapping Framework v2.1
 
-**Owner:** Ryan Shook · **Created:** 05-02-2026 · **Updated:** 05-17-2026
+**Owner:** Ryan Shook · **Created:** 05-02-2026 · **Updated:** 05-17-2026 (v2.1 backtest calibration)
 **Source of truth.** All dashboards regenerate from this file.
 
 ---
@@ -12,25 +12,42 @@
 - Added 2026 venue/distance overrides (Preakness at Laurel, Belmont at Saratoga 1 1/4 mi)
 - Linked to the 2027 Derby Trail Tracker (separate doc)
 
-## Core principle (unchanged)
+## What changed in v2.1 (05-17-2026)
 
-Each factor scored 0–10. Composite = weighted average. Composite ≥ 6.0 = "live" alert. Tier-list scoring is the same as v1; only the **weights** change between races.
+Driven by Preakness 2026 recap miss + 5-year backtest 2021–2025 (`backtest-2021-2025.md`).
+
+- **Added Factor 10: Recent Speed Index** — average of last 3 Beyer figures relative to field, scored 0-10. Weight 1.2× across all legs (1.0× at traditional Belmont 1.5mi). Catches "improving rapidly" signal that v2 missed for Rich Strike '22 (composite 4.2) and Mage '23 (composite 5.8).
+- **Stalker premium**: when pace projection flags ≥10 EP/Presser horses, Stalker-style runners get +2 Pace fit. Napoleon Solo (today's Preakness winner) would have lifted from 5.95 → ~6.6.
+- **Class Ceiling**: Beaten-Favorite tier list now distinguishes G1 *winners* from G1 *placers*. G1 winner = 9; G1 2nd = 6.
+- **Rank-based tier replaces composite ≥ 6.0 threshold.** Field-relative: Top-3 composites = `Tier A`, ranks 4-6 = `Tier B` (live), 7+ = `Tier C` (longshot). Eliminates the "10 of 14 flagged" problem.
+- **Finer Bounce-Risk tiers** (Preakness): added 8 (Derby off-the-board easy trip), kept 6 (Derby in-money easy trip), 4 (Derby winner/close 2-3rd hard run). Soften penalty for Derby 3rd-placers with come-from-behind trips.
+- **Beyer prediction modulator**: when projected pace is slow OR track is sloppy, bias the predicted-winning-Beyer band DOWN by 6-10. Today's Preakness 96 actual vs. predicted 95-98: tight, but only because pace projection happened to be wrong. A slow-pace Preakness should predict 88-92.
+
+Backtest hit rate at v2 composite ≥ 6.0: **10 of 15 = 66.7%** of winners. v2.1 targets >80% by catching the Rich Strike / Mage / Dornoch pattern via Recent Speed Index + Stalker premium.
+
+---
+
+## Core principle (v2.1 updated — see below)
+
+Each factor scored 0–10. Composite = weighted average. **v2.1: rank-based tier replaces absolute threshold.** Field-relative tiers: Top-3 composites = `Tier A` (high confidence); ranks 4-6 = `Tier B` (live); rank 7+ = `Tier C` (longshot territory). Tier-list scoring per factor unchanged from v1; only the **weights** and the **tier mapping** change between races.
 
 ---
 
 ## Race-Specific Factor Weights
 
-|                                   | Derby | Preakness | Belmont (1.5mi) | Belmont 2026 (1.25mi) |
-|-----------------------------------|-------|-----------|-----------------|------------------------|
-| 1. Sire Stamina Index             | 1.0×  | 0.6×      | **1.5×**        | 1.0×                   |
-| 2. Pace Fit                       | 1.5×  | 1.0×      | 0.8×            | 1.0×                   |
-| 3. Trainer Stable Activity        | 1.0×  | 1.0×      | 0.8×            | 0.8×                   |
-| 4. Jockey Form                    | 1.0×  | 1.0×      | 1.0×            | 1.0×                   |
-| 5. Beaten-Favorite Profile        | 1.2×  | 1.0×      | 0.8×            | 0.8×                   |
-| 6. ML Drift                       | 1.0×  | 1.0×      | 1.0×            | 1.0×                   |
-| 7. **Bounce Risk** (new)          | —     | **1.5×**  | **1.2×**        | **1.2×**               |
-| 8. **Distance Pedigree** (new)    | —     | 0.5×      | **2.0×**        | 1.0×                   |
-| 9. **Layoff Pattern** (new)       | —     | 0.8×      | **1.5×**        | 1.5×                   |
+|                                                   | Derby | Preakness | Belmont (1.5mi) | Belmont 2026 (1.25mi) |
+|---------------------------------------------------|-------|-----------|-----------------|------------------------|
+| 1. Sire Stamina Index                             | 1.0×  | 0.6×      | **1.5×**        | 1.0×                   |
+| 2. Pace Fit *(v2.1: + Stalker premium)*           | 1.5×  | 1.0×      | 0.8×            | 1.0×                   |
+| 3. Trainer Stable Activity                        | 1.0×  | 1.0×      | 0.8×            | 0.8×                   |
+| 4. Jockey Form                                    | 1.0×  | 1.0×      | 1.0×            | 1.0×                   |
+| 5. Beaten-Favorite + Class Ceiling *(v2.1)*       | 1.2×  | 1.0×      | 0.8×            | 0.8×                   |
+| 6. ML Drift                                       | 1.0×  | 1.0×      | 1.0×            | 1.0×                   |
+| 7. Bounce Risk *(v2.1: finer tiers)*              | —     | **1.5×**  | **1.2×**        | **1.2×**               |
+| 8. Distance Pedigree                              | —     | 0.5×      | **2.0×**        | 1.0×                   |
+| 9. Layoff Pattern                                 | —     | 0.8×      | **1.5×**        | 1.5×                   |
+| **10. Recent Speed Index** *(NEW v2.1)*           | **1.2×** | **1.2×** | 1.0×          | **1.2×**               |
+| 11. Post-Position Bias *(NEW v2.1, optional)*     | 0.5×  | 0.5×      | 0.3×            | 0.3×                   |
 
 ### Why the weights change
 
@@ -80,6 +97,30 @@ Beyond just sire — looks at the full pedigree's classic distance success.
 - **2** — Pure speed/middle-distance pedigree
 
 Belmont winners almost always have at least 8 here. Track the broodmare sire — A.P. Indy line, Sunday Silence (Japan), Sadler's Wells line all signal stamina.
+
+### 10. Recent Speed Index (NEW v2.1 — Derby + Preakness + short-Belmont critical)
+
+Average of last 3 Beyer Speed Figures, scored relative to the field.
+
+- **10** — Top Beyer in field; trajectory ↑ over last 3 starts
+- **8** — Top-3 Beyer in field
+- **6** — Mid-field Beyer; recent form solid
+- **4** — Bottom-third Beyer; no clear improvement signal
+- **2** — Slow/declining; bottom of field
+
+Backtest motivation: Mystik Dan 2024 (Beyer 101 in last start) and Mage 2023 (Beyer 95) had above-field Beyers that v2 didn't surface; Rich Strike 2022 had improving trajectory from 78 → 85 → 92 over 3 starts that wasn't captured by the Sire/Pace/B-Fav stack. Recent Speed Index is the most powerful single public predictor in handicapping and the framework had been ignoring it.
+
+### 11. Post-Position Bias (NEW v2.1, optional)
+
+Track-and-field-size-specific historical performance from the post position drawn.
+
+- **10** — Statistically favored PP for the track + field size (e.g., outside posts at 14-horse Pimlico)
+- **6** — Neutral PP
+- **2** — Statistically disfavored (e.g., rail at 14-horse Pimlico; far-outside at 8-horse Belmont)
+
+Weight 0.5× at Derby/Preakness; 0.3× at Belmont. Most signal is at Pimlico/Laurel where the rail consistently collapses in big fields.
+
+Mark this factor "skipped" when historical data for the specific track+field size isn't available — don't fabricate.
 
 ### 9. Layoff Pattern (Belmont critical)
 
