@@ -1,6 +1,6 @@
 # Triple Crown Handicapping Framework v2.1
 
-**Owner:** Ryan Shook · **Created:** 05-02-2026 · **Updated:** 05-17-2026 (v2.1 backtest calibration)
+**Owner:** Ryan Shook · **Created:** 05-02-2026 · **Updated:** 05-30-2026 (Belmont T-7 watchlist)
 **Source of truth.** All dashboards regenerate from this file.
 
 ---
@@ -315,18 +315,70 @@ These four observations seed the Belmont T-7 reweighting and the post-Belmont ca
 - [Napoleon Solo Shines in Preakness, Repels Iron Honor — BloodHorse](https://www.bloodhorse.com/horse-racing/articles/291901/napoleon-solo-shines-in-preakness-repels-iron-honor)
 - [Beyer 96 confirmation — DRF on X](https://x.com/DailyRacingForm/status/2056033566673272892)
 
-### Belmont Stakes — Saturday, 06-06-2026
+### Belmont Stakes — Saturday, 06-06-2026 · 158th running
 
-- **Venue:** Saratoga Race Course (final year before Belmont Park reopens)
+- **Venue:** Saratoga Race Course (final year before Belmont Park reopens — $455M rebuild)
 - **Distance:** 1 1/4 mi (third year shortened from 1 1/2 mi)
-- **Post:** 6:50 PM ET, FOX
-- **Key prep:** Peter Pan Stakes (G3), Saratoga, ~05-12-2026
-- **Key handicap:** Because it's only 10F at Saratoga, treat closer to Derby framework than traditional Belmont. Don't over-weight distance pedigree.
+- **Post:** 7:04 PM ET, FOX (per NYRA countdown clock as of T-7) · NBC slot earlier noted in v2 corrected here
+- **Purse:** $2,000,000 · **Field cap:** 14 · **Weights:** Colts 126 lbs, Fillies 121 lbs
+- **Post draw:** Monday 06-01-2026, 5:00 PM ET
+- **Key prep:** Peter Pan Stakes (G3), Aqueduct, 05-09-2026 (won by Growth Equity by 2)
+- **Key handicap:** Because it's only 10F at Saratoga, treat closer to Derby framework than traditional Belmont. Don't over-weight Distance Pedigree (1.0× not 2.0×).
 
-**Pre-race tracker (update as entries finalize):**
-| Horse | Trainer/Jockey | ML | SSI | Pace | Stbl | Jock | B-Fav | Drift | Layoff | Composite |
-|-------|----------------|-----|-----|------|------|------|-------|-------|--------|-----------|
-| _TBD as entries open ~ 06-03-2026 — triple-crown-race-brief task will populate on T-7 (05-30-2026)_ | | | | | | | | | | |
+#### T-7 Probable-Field Watchlist (locked 05-30-2026)
+
+Per task spec ML Drift and Post-Position Bias are **blank at T-7** — composite computed on the remaining 9 weighted factors. Belmont 2026 weights: SSI 1.0× · Pace 1.0× · Stable 0.8× · Jockey 1.0× · B-Fav 0.8× · Bounce 1.2× · Distance 1.0× · Layoff 1.5× · Recent Speed 1.2× (sum = 9.5). Field-relative tiers per v2.1 (Top-3 = Tier A, ranks 4-6 = Tier B, 7+ = Tier C).
+
+| Rank | Horse | Sire / Broodmare Sire | Trainer / Jockey | Early ML | SSI | Pace | Stbl | Jock | B-Fav | Bounce | Dist | Layoff | RSI | **Composite** | Tier |
+|---:|---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
+| 1 | **Golden Tempo** | Curlin / Bernardini | C. DeVaux / J. Ortiz | 9-2 | 10 | 6 | 9 | 10 | 10 | 6 | 10 | 8 | 10 | **8.67** | A |
+| 2 | **Renegade** | Into Mischief / Curlin | T. Pletcher / I. Ortiz Jr. | 9-5 | 7 | 7 | 10 | 10 | 8 | 6 | 7 | 8 | 9 | **7.94** | A |
+| 3 | **Chief Wallabee** | Constitution / Medaglia d'Oro | B. Mott / J. Alvarado | 7-1 | 8 | 7 | 10 | 9 | 7 | 7 | 9 | 8 | 7 | **7.94** | A |
+| 4 | **Growth Equity** | Nyquist / Wildcat Heir | C. Brown / F. Prat | 8-1 | 5 | 7 | 10 | 10 | 6 | 10 | 6 | 9 | 6 | **7.74** | B |
+| 5 | **Commandment** | Into Mischief / Orb | B. Cox / L. Saez | 12-1 | 7 | 7 | 9 | 8 | 7 | 8 | 8 | 8 | 7 | **7.66** | B |
+| 6 | **Ottinho** | Quality Road / unknown | C. Brown / TBA | 25-1 | 7 | 6 | 10 | 6 | 6 | 7 | 7 | 9 | 6 | **7.15** | B |
+| 7 | Emerging Market | unknown / unknown | C. Brown / TBA | 18-1 | 6 | 6 | 10 | 6 | 6 | 8 | 7 | 8 | 6 | **7.01** | C |
+| 8 | Iron Honor | Nyquist / unknown | C. Brown / TBA | 14-1 | 6 | 7 | 10 | 7 | 7 | 4 | 6 | 4 | 7 | **6.19** | C |
+| 9 | Napoleon Solo *(TBC)* | Liam's Map / Scat Daddy | C. Summers / P. Lopez | 6-1 | 6 | 7 | 6 | 7 | 9 | 3 | 6 | 4 | 6 | **5.77** | C |
+| 10 | Ocelli *(TBC)* | Connect / unknown | W. Beckman / TBA | 25-1 | 7 | 7 | 6 | 6 | 7 | 3 | 7 | 4 | 6 | **5.71** | C |
+
+ML and Drift columns will populate at T-1 (06-05-2026) after the 06-01-2026 post draw. PP-Bias column will be added after the draw.
+
+**Watchlist-only (insufficient data for scoring at T-7):**
+- **Powershift** (Pletcher / TBA) — Repole Stable, breezed at Saratoga in tandem with Renegade. Pletcher's "second string" but profile matches the Belmont-fresh recipe. Score at T-1 once entries confirm.
+- **Vitruvian Man** (Doug O'Neill / TBA) — Glenn Sorgenstein WC Racing. Listed by NYRA but not in the major handicapping previews. Confirm intent at the draw.
+- **Chip Honcho** (Preakness 3rd) — Possible per MyWinners; profile mirrors Iron Honor with worse layoff (back in 3 weeks). Tier C if entered.
+- **Talk to Me Jimmy** (Peter Pan 2nd) — Possible; thin résumé, longshot if entered.
+
+#### What the model sees at T-7
+
+**Golden Tempo (8.67) leads the watchlist** on a stack the framework can hardly avoid rewarding: Curlin sire (SSI 10, Distance 10), the field-best 106 Equibase from the Derby (RSI 10), Jose Ortiz back aboard (Jockey 10), G1-winner Beaten-Favorite tier (10), and the *exact* layoff recipe the framework rewards at 1.5× weight ("Ran Derby, skipped Preakness, came back fresh" = 8 plus the Pletcher/DeVaux Belmont-prep pattern). The one real ding is Bounce 6 — the Derby was a hard last-to-first run from the clouds, and the framework's v2.1 finer-tier list now distinguishes "hard stretch run" from "easy trip." But Bounce 6 at 1.2× is a 1.4-pt drag against a stack that's otherwise nine 8-10s. **He's the model's clear T-7 win candidate.**
+
+**Renegade and Chief Wallabee tie at 7.94** for ranks 2-3. Renegade's profile is the textbook Pletcher Belmont setup (Stable 10, Jockey 10, Layoff 8, RSI 9) held back by mid-tier Distance Pedigree (Into Mischief is a speed-leaning sire even with the Curlin broodmare) and Bounce 6 from a hard rail-trip Derby. Chief Wallabee is the inverse: weaker raw speed (RSI 7) but elite stamina pedigree (Distance 9) and the Mott-at-Saratoga premium (Stable 10) coming off a clean Derby 4th — the lowest-bounce-risk profile of the top three. **Both are Tier A live alerts; the post draw 06-01 will likely separate them.**
+
+**Growth Equity (7.74, Tier B) is the framework's favorite "fresh" value.** Never ran the Derby or Preakness, won the traditional Belmont prep (Peter Pan G3) stalking, Chad Brown / Flavien Prat, max Bounce risk score (10), and the Layoff recipe scored 9 ("Came off Wood/Arkansas Derby equivalent, skipped Derby and Preakness"). Distance Pedigree 6 (Nyquist over a Wildcat Heir mare — Brown himself flagged the distance question post-Peter Pan) is the only real concern.
+
+**Commandment (7.66, Tier B)** rounds out the live group — Florida Derby G1 winner, lightly raced, Derby 7th "off-the-board easy trip" (Bounce 8), classic Brad Cox setup. Recent Speed 7 (Beyer 101) and Pace 7 (stalking grinder) both fit Saratoga's tighter configuration.
+
+**Ottinho (7.15, Tier B)** is the longshot the framework upgrades — Quality Road sire, second in the Blue Grass G1, six clean works since, "skipped Derby and Preakness" Layoff 9. If Brown declares him alongside Growth Equity (and possibly Emerging Market), the three-Brown ticket structure could compress prices on Growth Equity and create value on Ottinho.
+
+**Bottom of the watchlist: Napoleon Solo (5.77) and Ocelli (5.71)** both pay the Bounce + Layoff tax for running the Preakness. Napoleon Solo's connections have signaled the Haskell may be the real target — entry status is genuinely uncertain. Iron Honor at 6.19 sits in the same bucket. Belmont 2026 weights penalize Triple Crown campaigners more than the traditional 1.5mi Belmont did, because Recent Speed and Layoff carry more weight here than Distance Pedigree.
+
+#### Pace projection (preliminary T-7, refine at T-1)
+
+Of the top 6 in the watchlist, only Renegade has any forward-press option. Golden Tempo, Chief Wallabee, Growth Equity, Commandment, Ottinho all profile as stalkers or deep closers. **If the field finalizes near this watchlist, the Preakness pace problem repeats — there isn't enough natural early speed to manufacture a contested pace.** That's the exact setup that flopped Talkin at 20-1 in the Preakness. Watch for any speed-type "new shooter" entering between now and the 06-01 draw (a Robusta-type pace presence, or Powershift if Pletcher uses him as a rabbit).
+
+If the pace remains soft, the framework's tier list disadvantages Golden Tempo (deep closer) and slightly favors Chief Wallabee (tactical stalker). Will revisit at T-1.
+
+#### Sources (T-7 scrape, 05-30-2026)
+
+- [2026 Belmont Stakes: Probable Horses — NYRA](https://www.nyra.com/belmont-stakes/racing/belmont-stakes-contenders/)
+- [Bet the Belmont Stakes: 2026 Contenders Full Field Guide — MyWinners (Rob Lawson, 05-26-2026)](https://mywinners.com/blog/2026-belmont-stakes-contenders-full-field-guide)
+- [2026 Belmont Stakes Cheat Sheet — America's Best Racing](https://www.americasbestracing.net/the-sport/2026-2026-belmont-stakes-cheat-sheet)
+- [Belmont Stakes 2026: Overseas odds for June 6 at Saratoga — Horse Racing Nation](https://www.horseracingnation.com/news/Belmont_Stakes_2026_Overseas_odds_for_June_6_at_Saratoga_123)
+- [2026 Belmont Stakes odds, date, predictions — CBS Sports](https://www.cbssports.com/general/news/2026-belmont-stakes-odds-date-predictions-expert-who-hit-4-of-last-8-winners-releases-horse-racing-picks/)
+
+Next milestone: T-1 (06-05-2026) — full field post-draw, Drift column populated, PP-Bias added, formal prediction logged.
 
 ---
 
