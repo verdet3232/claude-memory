@@ -84,3 +84,16 @@ _Populated as predictions accumulate. Tags below 40% validation rate flagged for
 4. **Sire Stamina Index** for Liam's Map (proven two-turn, classic-distance G1 producer) — was scored 5; should be 7. Re-audit the SSI table.
 
 **Status:** Logged. Final calibration pass deferred until Belmont T+1 (06-07-2026) per task spec.
+
+## Belmont Stakes · 06-05-2026
+Predicted win: Chief Wallabee (composite 7.70, ML 3-1) — pace-fit override over composite #1
+Predicted place: Golden Tempo (8.17, 9-2)
+Predicted show: Renegade (7.52, 2-1)
+Exacta key: Chief Wallabee / Golden Tempo box → Renegade, Commandment
+Trifecta key: (Chief Wallabee, Golden Tempo) / (Renegade, Commandment, Growth Equity) / (Renegade, Commandment, Growth Equity, Ottinho)
+Longshot value: Ottinho (20-1, 7.10)
+Confidence: medium
+Rationale tags: pace-fit-tactical, slow-pace-closer-fade, stamina-pedigree, derby-form, fresh-skip-layoff, market-underlay-fav
+Predicted winning Beyer: 98-103
+Field: 9 (Iron Honor / Napoleon Solo / Ocelli did not enter; Powershift + Vitruvian Man drew in)
+Note: scored at T+1 (06-07-2026)
