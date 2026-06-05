@@ -1,6 +1,6 @@
 # Triple Crown Handicapping Framework v2.1
 
-**Owner:** Ryan Shook · **Created:** 05-02-2026 · **Updated:** 05-30-2026 (Belmont T-7 watchlist)
+**Owner:** Ryan Shook · **Created:** 05-02-2026 · **Updated:** 06-05-2026 (Belmont T-1 post-draw field + prediction)
 **Source of truth.** All dashboards regenerate from this file.
 
 ---
@@ -378,7 +378,76 @@ If the pace remains soft, the framework's tier list disadvantages Golden Tempo (
 - [Belmont Stakes 2026: Overseas odds for June 6 at Saratoga — Horse Racing Nation](https://www.horseracingnation.com/news/Belmont_Stakes_2026_Overseas_odds_for_June_6_at_Saratoga_123)
 - [2026 Belmont Stakes odds, date, predictions — CBS Sports](https://www.cbssports.com/general/news/2026-belmont-stakes-odds-date-predictions-expert-who-hit-4-of-last-8-winners-releases-horse-racing-picks/)
 
-Next milestone: T-1 (06-05-2026) — full field post-draw, Drift column populated, PP-Bias added, formal prediction logged.
+#### T-1 Post-Draw Field & Composites (locked 06-05-2026)
+
+**Post draw:** Monday 06-01-2026, 5:00 PM ET. **Field finalized at 9** (cap was 14). Three Preakness runners from the T-7 watchlist — Iron Honor, Napoleon Solo, Ocelli — did **not** enter (Napoleon Solo pointed to the Haskell). Two T-7 "watchlist-only" names drew in: **Powershift** (Pletcher's second Repole colt) and **Vitruvian Man** (Doug O'Neill shipper off a Santa Anita Derby 3rd).
+
+**Official field — program/post order:**
+
+| PP | Horse | ML | Jockey | Trainer | Style | KY Derby |
+|---:|---|---:|---|---|---|---|
+| 1 | Vitruvian Man | 30-1 | A. Fresu | D. O'Neill | Presser | DNR (SA Derby 3rd) |
+| 2 | Powershift | 12-1 | L. Saez | T. Pletcher | Closer | DNR |
+| 3 | Chief Wallabee | 3-1 | J. Alvarado | B. Mott | Presser | 4th |
+| 4 | Renegade | 2-1 | I. Ortiz Jr. | T. Pletcher | Closer | 2nd |
+| 5 | Ottinho | 20-1 | D. Davis | C. Brown | Stalker | DNR (Blue Grass 2nd) |
+| 6 | Growth Equity | 12-1 | M. Franco | C. Brown | Presser | DNR (Peter Pan win) |
+| 7 | Commandment | 6-1 | J. Velazquez | B. Cox | Stalker | 7th |
+| 8 | Emerging Market | 6-1 | F. Prat | C. Brown | Closer | DNR |
+| 9 | Golden Tempo | 9-2 | J. Ortiz | C. DeVaux | Closer | **1st** |
+
+Derby rematch at the top: **Golden Tempo (Derby winner) vs Renegade (Derby 2nd)** — but the market sides with Renegade (2-1) over Chief Wallabee (3-1) and the winner Golden Tempo (9-2). Chad Brown saddles three (Ottinho, Growth Equity, Emerging Market) and **Flavien Prat chose Emerging Market**, not Peter Pan winner Growth Equity — a jockey-selection tell.
+
+**Composites — Belmont-2026 weights (sum 10.8):** SSI 1.0 · Pace 1.0 · Stable 0.8 · Jockey 1.0 · B-Fav 0.8 · **Drift 1.0** · Bounce 1.2 · Distance 1.0 · Layoff 1.5 · Recent Speed 1.2 · **PP-Bias 0.3**. ML Drift held at 5 (neutral) — live tote matches the morning line the day before; real Drift is scored at the wire (T+0). PP-Bias held at 6 (neutral) — Saratoga at 1¼ mi has only a 2024-25 sample; rail read deferred to race day per the framework's "don't fabricate" rule.
+
+| Rank | PP | Horse | ML | SSI | Pace | Stbl | Jock | B-Fav | Drift | Bounce | Dist | Layoff | RSI | PP | **Comp** | Tier |
+|---:|---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
+| 1 | 9 | **Golden Tempo** | 9-2 | 10 | 5 | 9 | 10 | 10 | 5 | 6 | 10 | 8 | 10 | 6 | **8.17** | A |
+| 2 | 3 | **Chief Wallabee** | 3-1 | 8 | 8 | 10 | 9 | 7 | 5 | 7 | 9 | 8 | 7 | 6 | **7.70** | A |
+| 3 | 4 | **Renegade** | 2-1 | 7 | 6 | 10 | 10 | 8 | 5 | 6 | 7 | 8 | 9 | 6 | **7.52** | A |
+| 4 | 7 | Commandment | 6-1 | 7 | 7 | 9 | 8 | 7 | 5 | 8 | 8 | 8 | 7 | 6 | **7.37** | B |
+| 5 | 6 | Growth Equity | 12-1 | 5 | 8 | 10 | 8 | 6 | 5 | 10 | 6 | 9 | 6 | 6 | **7.34** | B |
+| 6 | 5 | Ottinho | 20-1 | 7 | 7 | 10 | 7 | 6 | 5 | 7 | 7 | 9 | 6 | 6 | **7.10** | B |
+| 7 | 8 | Emerging Market | 6-1 | 6 | 5 | 10 | 9 | 6 | 5 | 8 | 7 | 8 | 6 | 6 | **6.98** | C |
+| 8 | 2 | Powershift | 12-1 | 6\* | 5 | 9 | 8 | 4 | 5 | 8 | 6\* | 7 | 5\* | 6 | **6.32** | C |
+| 9 | 1 | Vitruvian Man | 30-1 | 6\* | 7 | 6 | 5 | 5 | 5 | 7 | 6\* | 7 | 5\* | 6 | **5.97** | C |
+
+`*` = sire / broodmare-sire / recent figure not scraped for the two late-confirmed entrants; scored neutral and flagged — **not researched values**. Refine at T+0 once connections/figures publish.
+
+**Pace projection (T-1) — the sharpest read on the race:** four closers (Renegade, Golden Tempo, Emerging Market, Powershift), two stalkers (Commandment, Ottinho), three pressers (Chief Wallabee, Growth Equity, Vitruvian Man). **No natural early speed.** This is the same no-pace shape that stranded the closers and handed the Preakness to a tactical type (Napoleon Solo from off a soft :46.66 half). Expect a slow, tactical race won from forward/mid-pack — deep closers are at structural risk.
+
+**Model vs. market:**
+- **Golden Tempo (9-2, model #1, 8.17)** — Derby winner, Curlin, field-best 106 Equibase. Market has him only 4th choice because he's a deep closer; model still tops him on class, **but the slow-pace projection is a live trap** — the exact Talkin spot from the Preakness. Value on the board, trip risk in the run.
+- **Chief Wallabee (3-1, model #2, 7.70)** — the pace-fit play: tactical presser, cleanest bounce (easy Derby 4th), Constitution/Medaglia d'Oro stamina, Mott/Alvarado at the Spa. The horse the framework's own Preakness post-mortem says to back in this shape.
+- **Renegade (2-1 fav, model #3, 7.52)** — elite connections and figures, but a closer bet to the shortest price. **Model makes him an underlay** — fair horse, no value.
+- **Emerging Market (6-1, Prat's pick, model #7, 6.98)** — model is skeptical: another Brown closer into a slow pace. Likely overbet off the Prat headline.
+- **Ottinho (20-1, model #6, 7.10)** — Tier-B profile at a Tier-C price; stalker pace-fit + skip-Derby freshness.
+
+**Formal Prediction (LOCKED T-1 · 06-05-2026):**
+- **Win:** **Chief Wallabee** (7.70, 3-1) — pace-fit override. In a no-early-speed field the tactical presser is the play; the framework learned this two weeks ago.
+- **Top danger / co-key:** Golden Tempo (8.17, 9-2) — highest composite; wins if class trumps trip.
+- **Place:** Golden Tempo. **Show:** Renegade.
+- **Exacta key:** Chief Wallabee / Golden Tempo box, over Renegade + Commandment.
+- **Trifecta key:** (Chief Wallabee, Golden Tempo) / (Renegade, Commandment, Growth Equity) / (Renegade, Commandment, Growth Equity, Ottinho).
+- **Longshot value:** Ottinho (20-1, 7.10).
+- **Confidence:** medium.
+- **Rationale tags:** `pace-fit-tactical`, `slow-pace-closer-fade`, `stamina-pedigree`, `derby-form`, `fresh-skip-layoff`, `market-underlay-fav`.
+- **Predicted winning Beyer:** 98-103 (10F, classy field; v2.1 slow-pace modulator caps the top end).
+
+**Suggested allocation (3.0u):**
+- 1u Chief Wallabee to win
+- 0.5u Golden Tempo to win
+- 1u $1 exacta box: Chief Wallabee / Golden Tempo
+- 0.5u $1 trifecta key: (Chief Wallabee, Golden Tempo) / (Renegade, Commandment, Growth Equity) / (Renegade, Commandment, Growth Equity, Ottinho)
+- 0.25u flier: Ottinho to win at 20-1
+
+**Sources (T-1 scrape, 06-05-2026):**
+- [VSiN — 2026 Belmont post draw & opening odds](https://vsin.com/horse-racing/2026-belmont-stakes-post-draw-and-opening-odds/)
+- [NYRA — Belmont Stakes contenders](https://www.nyra.com/belmont-stakes/racing/belmont-stakes-contenders/)
+- [Horse Racing Nation — post draw & morning-line odds](https://www.horseracingnation.com/news/Belmont_Stakes_2026_Post_position_draw_and_morning_line_odds_123)
+- [Covers — 2026 Belmont field profiles](https://www.covers.com/horse-racing/belmont-stakes/horses-2026)
+
+Next milestone: T+1 (06-07-2026) — chart, Beyer, trip notes, prediction scoring, then the season-end framework calibration pass.
 
 ---
 
