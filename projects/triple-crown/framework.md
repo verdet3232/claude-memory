@@ -447,7 +447,63 @@ Derby rematch at the top: **Golden Tempo (Derby winner) vs Renegade (Derby 2nd)*
 - [Horse Racing Nation — post draw & morning-line odds](https://www.horseracingnation.com/news/Belmont_Stakes_2026_Post_position_draw_and_morning_line_odds_123)
 - [Covers — 2026 Belmont field profiles](https://www.covers.com/horse-racing/belmont-stakes/horses-2026)
 
-Next milestone: T+1 (06-07-2026) — chart, Beyer, trip notes, prediction scoring, then the season-end framework calibration pass.
+#### T+1 Post-Race Recap (06-07-2026) — final
+
+**Result — 158th Belmont Stakes, Saratoga, 1¼ mi, 06-06-2026:** **Golden Tempo** (PP 9, 6-1) wins by 1¼ lengths in 2:03.49. Jose Ortiz up; Cherie DeVaux becomes the first woman to win both the Derby and the Belmont (second woman to win a Belmont, after Antonucci '23). Half in :48.29, six furlongs in 1:12.38 — modest fractions, as projected; opening quarter not yet published (chart unscraped at T+1). **Beyer 98 (DRF)** — predicted 98-103 → ✅ TIGHT, bottom of range. Winner's Derby Beyer was 95 → forward move of 3.
+
+**Order of finish vs model:**
+
+| Fin | Horse | Comp (rank) | ML → Final | Note |
+|---:|---|---|---|---|
+| 1 | **Golden Tempo** | 8.17 (#1) | 9-2 → 6-1 | Last of 9 early but in contact (~7L per HRN), two-path, edged clear final 50 yds |
+| 2 | Commandment | 7.37 (#4) | 6-1 → 6-1 (al.com, single source) | Second-best late move; Derby 7th |
+| 3 | Renegade | 7.52 (#3) | 2-1 → 8-5 fav | Bet down to favoritism, flattened late — underlay call ✅ |
+| 4 | Chief Wallabee | 7.70 (#2) | 3-1 → 5-1 | **Led at the 8th pole**, outkicked — 4th, same as Derby |
+| 5 | Emerging Market | 6.98 (#7) | 6-1 → unknown | Prat's pick beaten; Derby alumni swept top 5 |
+| 6 | Growth Equity | 7.34 (#5) | 12-1 → unknown | Pressed the pace, faded |
+| 7 | Vitruvian Man | 5.97 (#9) | 30-1 → unknown | |
+| 8 | Ottinho | 7.10 (#6) | 20-1 → unknown | Longshot flier never fired |
+| 9 | Powershift | 6.32 (#8) | 12-1 → unknown | Made the lead under Saez — the T-7 "Pletcher rabbit" scenario — faded to last |
+
+`unknown` = final tote for non-board finishers not in T+1 sources; refine if Equibase chart is scraped later.
+
+**Payouts:** $14.00 / $7.32 / $3.88 · $1 exacta (9-7) $55.67 ($2: $111.34) · $2 trifecta (9-7-4) $205.28 ($1: $102.64) · $1 superfecta (9-7-4-3) $237.98.
+
+**Structural headline: the model's top four composites filled the top four finish positions** (comp #1→1st, #2→4th, #3→3rd, #4→2nd). A $1 superfecta box of the model's top four (24 combos, $24) returned $237.98. The composite engine is doing its job as a class filter — it was the win-pick layer on top that failed.
+
+**Prediction scoring (vs LOCKED T-1):**
+- **Win-hit:** ❌ MISS — Chief Wallabee 4th.
+- **Place-hit:** ✅ HIT — Golden Tempo won; place wager cashes ($7.32). (Exact-slot miss: predicted 2nd, ran 1st.)
+- **Show-hit:** ✅ HIT — Renegade 3rd exactly.
+- **Exacta-hit:** ❌ MISS — CW/GT box dead with CW 4th.
+- **Trifecta-hit:** ✅ **HIT** — key (CW, GT) / (Ren, Com, GE) / (Ren, Com, GE, Ott) covered the 9-7-4 result: GT first slot, Commandment second group, Renegade third group.
+- **Longshot-hit:** ❌ MISS — Ottinho 8th.
+- **Beyer delta:** ✅ TIGHT — predicted 98-103, actual 98.
+
+**P/L on suggested allocation (3.25u staked):** 1u CW win -1.0u · 0.5u GT win @ $14.00 = +3.0u net · 1u $1 exacta box -1.0u · 0.5u tri key (18 combos) returns 102.64 × (0.5/18) = 2.85u → +2.35u net · 0.25u Ottinho flier -0.25u. **Net +3.10u (ROI +95%).** Season: Preakness -3.25u + Belmont +3.10u = **-0.15u** — rescued by the trifecta architecture and the Golden Tempo hedge win bet.
+
+**Drift (scored at the wire):** the tote faded the winner (GT 9-2 → 6-1) and hammered the wrong horse (Renegade 2-1 → 8-5, ran 3rd). CW 3-1 → 5-1 (drift correct there — ran 4th). Second straight leg won by a horse the tote was drifting or ignoring (Napoleon Solo 8-1, Golden Tempo 6-1). **Drift-as-confidence is 0-for-2 this season** — flagged in calibration.
+
+**Rationale-tag verdicts:**
+- `pace-fit-tactical` → ❌ Invalidated. The tactical presser got the perfect trip — led at the 8th pole — and lacked the finishing kick. Pace logic delivered position, not the win.
+- `slow-pace-closer-fade` → ❌ Invalidated. The pace WAS modest (:48.29 half) and the deep closer won anyway. Class trumped shape; mitigating note — GT broke well and stayed in contact (Ortiz: "the break helped him a lot"), which moderated the closer risk the tag was built on.
+- `stamina-pedigree` → ✅ Validated. Curlin colt (SSI 10 / Distance 10) won at 10F; the speed-leaning Into Mischief favorite flattened to 3rd.
+- `derby-form` → ✅ Validated emphatically — Derby runners swept the top five.
+- `fresh-skip-layoff` → ✅ Validated. Five weeks rest, skipped the Preakness — second consecutive year the Derby winner skipped Pimlico and won the Belmont (Sovereignty '25, Golden Tempo '26).
+- `market-underlay-fav` → ✅ Validated. 8-5 Renegade ran third — fair horse, no value, exactly as priced by the model.
+
+**The big lesson (carried into calibration):** at the Preakness the model trusted a pace projection and got burned; at the Belmont it over-corrected — demoting its own composite #1 on pace grounds — and got burned the other way. Both pace SHAPES were projected correctly; both pace-driven PICK ADJUSTMENTS were wrong. The composite earned the right to pick the winner; the override layer didn't. v3 recommendation: pace overrides barred unless composite gap ≤ 0.25 (Belmont gap was 0.47).
+
+**Data QA flag:** the T-1 field table listed Emerging Market as Derby DNR; he ran 10th in the Derby (HRN). Single-source field builds need a second-source cross-check at T-1 — logged for calibration.
+
+**Sources (T+1 scrape, 06-07-2026):**
+- [Horse Racing Nation — Golden Tempo wins with last-to-first rally (Shifman, 06-06-2026)](https://www.horseracingnation.com/news/Belmont_Stakes_2026_Golden_Tempo_wins_with_last_to_first_rally_123)
+- [DRF — Golden Tempo goes from Kentucky Derby winner to Belmont Stakes victor (Beyer 98, fractions, trip)](https://live.drf.com/news/golden-tempo-goes-last-belmont-stakes-victory-trainer-cherie-devaux)
+- [al.com — 2026 Belmont Stakes: results, payouts, order of finish](https://www.al.com/sports/2026/06/2026-belmont-stakes-results-payouts-order-of-finish-for-golden-tempos-victory.html)
+- [ESPN — Kentucky Derby winner Golden Tempo wins Belmont Stakes](https://www.espn.com/horse-racing/story/_/id/48987082/kentucky-derby-winner-golden-tempo-wins-belmont-stakes)
+- [AOL/Fox — Golden Tempo takes home 158th Belmont Stakes (Chief Wallabee final odds)](https://www.aol.com/articles/golden-tempo-2026-kentucky-derby-230915763.html)
+
+**Season status:** Triple Crown 2026 closed. Calibration pass fired → `projects/triple-crown/calibration-2026.md`. Next up: the 2027 Derby trail (Iroquois, BC Juvenile) via `derby-prep-race-brief` starting September.
 
 ---
 
@@ -466,7 +522,7 @@ Next milestone: T+1 (06-07-2026) — chart, Beyer, trip notes, prediction scorin
 | 06-03-2026 | Belmont entries | Run framework |
 | 06-05-2026 | Belmont T-1 brief | triple-crown-race-brief final brief |
 | 06-06-2026 | Belmont race | Lock predictions, run bets |
-| 06-07-2026 | Belmont T+1 recap | Score predictions; fire season calibration |
+| 06-07-2026 | Belmont T+1 recap | ✅ Scored (+3.10u) · calibration-2026.md written |
 | 06-08-2026 | Triple Crown wrap-up | Full post-mortem, framework v3 update |
 
 ---
