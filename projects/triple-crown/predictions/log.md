@@ -5,16 +5,19 @@ Running ledger of every triple-crown-race-brief prediction with rationale tags. 
 | Race | Date | Predicted Win | Conf | Tags | Result | Win | Place | Show | Exacta | Beyer Δ |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Preakness Stakes | 05-16-2026 | Talkin (20-1, comp 7.87) | med-low | rider-upgrade, pace-fit-closer, beaten-fav-G1G3, fresh-no-bounce, distance-neutral | Won: Napoleon Solo (8-1, comp 5.95) · Talkin 12th | ❌ | ✅ Iron Honor 2nd | ✅ Chip Honcho 3rd | ❌ | TIGHT (predicted 95-98, actual 96) |
+| Belmont Stakes | 06-06-2026 | Chief Wallabee (3-1, comp 7.70 #2 — pace override) | med | pace-fit-tactical, slow-pace-closer-fade, stamina-pedigree, derby-form, fresh-skip-layoff, market-underlay-fav | Won: Golden Tempo (6-1, comp 8.17 — model #1) · CW 4th | ❌ | ✅ GT 1st (place cashes) | ✅ Renegade 3rd | ❌ | TIGHT (predicted 98-103, actual 98) |
 
 ---
 
 ## Hit-rate summary (auto-updated on each T+1)
 
-- **Win rate:** 0/1 (0.0%)
-- **Place rate:** 1/1 (100.0%)
-- **Show rate:** 1/1 (100.0%)
-- **Exacta rate:** 0/1 (0.0%)
-- **Average Beyer delta:** TIGHT (1 of 1 within predicted range)
+- **Win rate:** 0/2 (0.0%)
+- **Place rate:** 2/2 (100.0%)
+- **Show rate:** 2/2 (100.0%)
+- **Exacta rate:** 0/2 (0.0%)
+- **Trifecta rate:** 1/2 (50.0%) — Belmont key hit ($1 key, 18 combos, returned $102.64)
+- **Average Beyer delta:** TIGHT (2 of 2 within predicted range)
+- **Season P/L:** **-0.15u** on 6.5u staked (Preakness -3.25u · Belmont +3.10u)
 
 ## Signal-tag performance
 
@@ -27,10 +30,14 @@ _Populated as predictions accumulate. Tags below 40% validation rate flagged for
 | beaten-fav-G1G3 | 1 | 0.5 | 50.0% |
 | fresh-no-bounce | 1 | 1 | 100.0% |
 | distance-neutral | 1 | 1 (neutral) | 100.0% |
+| pace-fit-tactical | 1 | 0 | 0.0% ⚠ |
+| slow-pace-closer-fade | 1 | 0 | 0.0% ⚠ |
+| stamina-pedigree | 1 | 1 | 100.0% |
+| derby-form | 1 | 1 | 100.0% |
+| fresh-skip-layoff | 1 | 1 | 100.0% |
+| market-underlay-fav | 1 | 1 | 100.0% |
 
----
-
-*Source: triple-crown-race-brief scheduled task on T-1 (prediction logged) and T+1 (scored). Calibration pass after Belmont T+1 writes calibration-2026.md.*
+**Family rollup (calibration input):** pace family (pace-fit-closer + pace-fit-tactical + slow-pace-closer-fade) **0-for-3** ⚠ — headline downweight candidate. Freshness family (fresh-no-bounce + fresh-skip-layoff) **2-for-2** — merge into single `fresh-layoff` tag for 2027.
 
 ---
 
@@ -97,3 +104,40 @@ Rationale tags: pace-fit-tactical, slow-pace-closer-fade, stamina-pedigree, derb
 Predicted winning Beyer: 98-103
 Field: 9 (Iron Honor / Napoleon Solo / Ocelli did not enter; Powershift + Vitruvian Man drew in)
 Note: scored at T+1 (06-07-2026)
+
+### Belmont Stakes · 06-06-2026 (scored T+1 · 06-07-2026)
+
+**Actual result:** Golden Tempo (PP 9, final odds 6-1, pre-race composite 8.17 = model #1) by 1¼ over Commandment; Renegade (8-5 fav) 3rd; Chief Wallabee 4th after leading at the 8th pole. Final time 2:03.49 (half :48.29 · 6F 1:12.38 — modest pace; opening quarter unpublished at T+1). **Beyer 98 (DRF).** Powershift made the lead and faded to last; Derby alumni swept the top five. Full order: Golden Tempo, Commandment, Renegade, Chief Wallabee, Emerging Market, Growth Equity, Vitruvian Man, Ottinho, Powershift.
+
+**Payouts:** $14.00 / $7.32 / $3.88 · $1 exacta (9-7) $55.67 · $2 trifecta (9-7-4) $205.28 · $1 superfecta (9-7-4-3) $237.98.
+
+**Scoring:**
+- **Win-hit:** ❌ MISS — Chief Wallabee 4th. The pace-fit override demoted composite #1 Golden Tempo (8.17 → co-key), who won.
+- **Place-hit:** ✅ HIT — Golden Tempo won; place wager cashes ($7.32). Exact-slot miss (predicted 2nd, ran 1st).
+- **Show-hit:** ✅ HIT — Renegade 3rd exactly.
+- **Exacta-hit:** ❌ MISS — CW/GT box dead with CW 4th.
+- **Trifecta-hit:** ✅ **HIT** — (CW, GT) / (Ren, Com, GE) / (Ren, Com, GE, Ott) covered 9-7-4 (GT / Commandment / Renegade). $1 key = 18 combos = $18 → $102.64.
+- **Longshot-hit:** ❌ MISS — Ottinho 8th.
+- **Beyer delta:** ✅ TIGHT — predicted 98-103, actual 98 (bottom of range).
+
+**P/L (3.25u staked):** 1u CW win -1.0 · 0.5u GT win @ $14.00 +3.0 net · 1u $1 exacta box -1.0 · 0.5u tri key +2.35 net · 0.25u Ottinho -0.25 → **net +3.10u (ROI +95%)**. Season: **-0.15u**.
+
+**Rationale-tag verdicts:**
+- `pace-fit-tactical` → ❌ Invalidated. The tactical presser got the dream trip (led at the 8th pole) and got outkicked. Pace logic bought position, not the win.
+- `slow-pace-closer-fade` → ❌ Invalidated. Pace was modest and the deep closer won anyway — clean break + contact (Ortiz) moderated the risk the tag priced in.
+- `stamina-pedigree` → ✅ Validated. Curlin (SSI 10 / Dist 10) won at 10F; Into Mischief favorite flattened.
+- `derby-form` → ✅ Validated. Derby runners swept the top five.
+- `fresh-skip-layoff` → ✅ Validated. Winner had 5 weeks rest, skipped the Preakness — second straight year that recipe won the Belmont.
+- `market-underlay-fav` → ✅ Validated. 8-5 Renegade ran 3rd.
+
+**Structural finding:** model composite ranks #1-4 = finish positions 1-4 (scrambled). A $1 super box of the model's top four ($24) returned $237.98. Composite engine validated; win-pick override layer 0-for-2 this season.
+
+**Data QA:** T-1 field table had Emerging Market as Derby DNR — actually Derby 10th (HRN). Two-source field verification added to calibration recommendations.
+
+**Drift postscript (wire):** GT 9-2 → 6-1 (tote faded the winner), Renegade 2-1 → 8-5 (hammered, 3rd), CW 3-1 → 5-1 (drift correct, 4th). Drift-as-confidence 0-for-2 on season winners.
+
+**Status:** Scored and logged. **Season calibration fired → `projects/triple-crown/calibration-2026.md`** (06-07-2026).
+
+---
+
+*Source: triple-crown-race-brief scheduled task on T-1 (prediction logged) and T+1 (scored). Calibration pass after Belmont T+1 writes calibration-2026.md.*
