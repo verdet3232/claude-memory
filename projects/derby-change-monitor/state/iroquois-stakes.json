@@ -1,16 +1,15 @@
 {
   "race": "Iroquois Stakes 2026",
-  "last_check_ts": "2026-09-05T12:00:00-04:00",
+  "last_check_ts": "2026-09-05T21:02:00-04:00",
   "field_drawn": false,
   "entries": [],
   "scratches": [],
   "track_condition": null,
   "weather_forecast": null,
   "notes": [
-    "Baseline established 09-05-2026 (T-7) after PAT regeneration fix. Iroquois (G3) $300,000, one-turn mile, Churchill Downs, race day 09-12-2026 — first Road to the 2027 Kentucky Derby points race (10-5-3-2-1).",
-    "Entries NOT yet drawn at T-7: per Churchill Downs release, entries for the 09-12 stakes are taken Tuesday 09-08-2026. 25 juveniles nominated to the Iroquois.",
-    "09-05-2026 12:00 ET check: field still NOT drawn (draw is 09-08). Search surfaced only prior-year (2024/2025-Derby) Iroquois coverage; no current 2026 field, odds, or track condition available pre-draw. No fabrication. Comparison begins once field_drawn flips true (expected first post-draw run 09-08 PM or 09-09).",
-    "No odds / track condition / weather captured yet — none meaningful pre-draw."
+    "Baseline established 09-05-2026 (T-7) after PAT regeneration fix. Iroquois (G3) $300,000, one-turn mile, Churchill Downs, race day 09-12-2026 — first Road to the 2027 Kentucky Derby points race (10-5-3-2-1). Entries drawn Tuesday 09-08-2026. 25 juveniles nominated.",
+    "09-05-2026 21:02 ET (18:00 run): field still NOT drawn. Verified against HRN Churchill Downs entries for 09-12-2026 — Churchill Downs is not among the 8 tracks with a published card for that date; the 09-12 CD card (incl. Iroquois) is not up pre-draw. Web search surfaced only prior-year Iroquois coverage. No 2026 field/odds/track condition available. No fabrication.",
+    "Comparison begins once field_drawn flips true (expected first post-draw run 09-08 PM or 09-09)."
   ],
   "sha": null
 }
