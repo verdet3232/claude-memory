@@ -1,15 +1,16 @@
 {
   "race": "Iroquois Stakes 2026",
-  "last_check_ts": "2026-09-07T21:02:00-04:00",
+  "last_check_ts": "2026-09-08T09:08:00-04:00",
   "field_drawn": false,
   "entries": [],
   "scratches": [],
   "track_condition": null,
   "weather_forecast": null,
   "notes": [
-    "09-07-2026 21:02 ET pulse: field still NOT drawn. HRN Stakes Tracker lists 11 'Possible' probables (no PPs/jockeys/odds): Real Goodbar (McPeek), Jokester (Weaver), Inshallah (Sadler), Title Worthy (Stewart), Bearamour (Desormeaux), Salahudin (Baffert), Caribbean Life (Walden), Antivenom (Casse), Fiestabowlforemike (Beckman), Blessed Flyer (Tomlinson), Admiralty (McPeek). Nothing comparable pre-draw.",
-    "Entries drawn Tuesday 09-08-2026 per Churchill Downs. Comparison begins once field_drawn flips true.",
-    "Baseline established 09-05-2026 (T-7). Iroquois (G3) $300,000, 1 mile, Churchill Downs, race day 09-12-2026 \u2014 first Road to 2027 KY Derby points race. 25 nominated."
+    "09-08-2026 09:08 ET pulse: field still NOT drawn (draw expected midday Tue 09-08 per Churchill Downs; HRN Future Stakes still lists Iroquois G3 as 11 possible / 0 probable). Same 11 probables as 09-07, no roster/trainer change: Salahudin (Baffert), Blessed Flyer (Tomlinson), Admiralty (McPeek), Antivenom (Casse), Bearamour (Desormeaux), Caribbean Life (Walden), Fiestabowlforemike (Beckman), Inshallah (Sadler), Jokester (Weaver), Real Goodbar (McPeek), Title Worthy (Stewart). No PPs/jockeys/odds yet. Comparison begins once field_drawn flips true.",
+    "09-07-2026 21:02 ET pulse: field still NOT drawn. Same 11 probables.",
+    "Entries expected drawn Tuesday 09-08-2026 per Churchill Downs. Comparison begins once field_drawn flips true.",
+    "Baseline established 09-05-2026 (T-7). Iroquois (G3) $300,000, 1 mile, Churchill Downs, race day 09-12-2026 - first Road to 2027 KY Derby points race. 25 nominated."
   ],
   "sha": null
 }
