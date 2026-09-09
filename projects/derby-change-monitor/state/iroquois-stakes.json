@@ -1,27 +1,90 @@
 {
   "race": "Iroquois Stakes 2026",
-  "last_check_ts": "2026-09-09T13:46:00-04:00",
+  "last_check_ts": "2026-09-09T18:12:00-04:00",
   "field_drawn": true,
   "entries": [
-    {"pp": 1, "horse": "Caribbean Life", "jockey": "Flavien Prat", "trainer": "William Walden", "ml": "6/1", "current_odds": null},
-    {"pp": 2, "horse": "Blessed Flyer", "jockey": "Brian Joseph Hernandez, Jr.", "trainer": "Michael A. Tomlinson", "ml": "9/2", "current_odds": null},
-    {"pp": 3, "horse": "Bearamour", "jockey": "James Graham", "trainer": "J. Keith Desormeaux", "ml": "30/1", "current_odds": null},
-    {"pp": 4, "horse": "Admiral's Order", "jockey": "Luan Machado", "trainer": "Ben Colebrook", "ml": "15/1", "current_odds": null},
-    {"pp": 5, "horse": "Real Goodbar", "jockey": "Emmanuel Esquivel", "trainer": "Kenneth G. McPeek", "ml": "10/1", "current_odds": null},
-    {"pp": 6, "horse": "Antivenom", "jockey": "Jose L. Ortiz", "trainer": "Mark E. Casse", "ml": "6/1", "current_odds": null},
-    {"pp": 7, "horse": "Salahudin", "jockey": "Florent Geroux", "trainer": "Bob Baffert", "ml": "8/5", "current_odds": null},
-    {"pp": 8, "horse": "He Is No Lie", "jockey": "Joel Rosario", "trainer": "Doug F. O'Neill", "ml": "5/1", "current_odds": null},
-    {"pp": 9, "horse": "Real Gone", "jockey": "Keith J. Asmussen", "trainer": "Patrick L. Biancone", "ml": "12/1", "current_odds": null}
+    {
+      "pp": 1,
+      "horse": "Caribbean Life",
+      "jockey": "Flavien Prat",
+      "trainer": "William Walden",
+      "ml": "6/1",
+      "current_odds": null
+    },
+    {
+      "pp": 2,
+      "horse": "Blessed Flyer",
+      "jockey": "Brian Joseph Hernandez, Jr.",
+      "trainer": "Michael A. Tomlinson",
+      "ml": "9/2",
+      "current_odds": null
+    },
+    {
+      "pp": 3,
+      "horse": "Bearamour",
+      "jockey": "James Graham",
+      "trainer": "J. Keith Desormeaux",
+      "ml": "30/1",
+      "current_odds": null
+    },
+    {
+      "pp": 4,
+      "horse": "Admiral's Order",
+      "jockey": "Luan Machado",
+      "trainer": "Ben Colebrook",
+      "ml": "15/1",
+      "current_odds": null
+    },
+    {
+      "pp": 5,
+      "horse": "Real Goodbar",
+      "jockey": "Emmanuel Esquivel",
+      "trainer": "Kenneth G. McPeek",
+      "ml": "10/1",
+      "current_odds": null
+    },
+    {
+      "pp": 6,
+      "horse": "Antivenom",
+      "jockey": "Jose L. Ortiz",
+      "trainer": "Mark E. Casse",
+      "ml": "6/1",
+      "current_odds": null
+    },
+    {
+      "pp": 7,
+      "horse": "Salahudin",
+      "jockey": "Florent Geroux",
+      "trainer": "Bob Baffert",
+      "ml": "8/5",
+      "current_odds": null
+    },
+    {
+      "pp": 8,
+      "horse": "He Is No Lie",
+      "jockey": "Joel Rosario",
+      "trainer": "Doug F. O'Neill",
+      "ml": "5/1",
+      "current_odds": null
+    },
+    {
+      "pp": 9,
+      "horse": "Real Gone",
+      "jockey": "Keith J. Asmussen",
+      "trainer": "Patrick L. Biancone",
+      "ml": "12/1",
+      "current_odds": null
+    }
   ],
   "scratches": [],
   "track_condition": null,
-  "weather_forecast": "NWS Louisville (as of 09-09-2026 ~1:49pm ET): Sat 09-12 day = chance of showers/tstorms mainly after 2pm, partly sunny, high ~87F, precip 40%; Sat night 30%. 40% is BELOW 50% threshold - no flip.",
+  "weather_forecast": "NWS Louisville (as of 09-09-2026 4:10pm ET update): Sat 09-12 day = chance of showers, tstorms possible after 2pm, partly sunny, high ~87F, precip 40%; Sat night 30%. 40% BELOW 50% threshold - no flip (unchanged from prior).",
   "notes": [
-    "09-09-2026 13:46 ET pulse (12:00 run): NO MATERIAL CHANGE. Cross-confirmed vs Equibase OFFICIAL entry (CD091226USA10, maxAge:0) AND HRN live entries: all 9 PPs/horses/jockeys/trainers identical to draw baseline - no scratches (Equibase scratch list empty), no jockey switches, no new entries. SEEDED morning-line odds now posted (were null): PP7 Salahudin 8/5 (fav), PP2 Blessed Flyer 9/2, PP8 He Is No Lie 5/1, PP1 Caribbean Life 6/1, PP6 Antivenom 6/1, PP5 Real Goodbar 10/1, PP9 Real Gone 12/1, PP4 Admiral's Order 15/1, PP3 Bearamour 30/1. ML first-posting is a SEED, not a diff -> no DM. current_odds still empty (live win pools not open at T-3) -> odds-drift not computable this pulse; drift comparison begins once live odds post. Surface 'Dirt' (not a going rating) -> track_condition kept null. Weather NWS Louisville Sat 09-12 = 40% (unchanged, below 50% threshold, no flip). Race-week news scan (qdr:w) found no scratch/rider-change stories; a Facebook post's '10 juveniles' is loose pre-draw language - official field is 9. Silent on no-change.",
-    "09-09-2026 (06:00 run) pulse: NO MATERIAL CHANGE. Live HRN dated card confirmed all 9 PPs/horses/jockeys identical to the 09-08 15:02 draw baseline. Jockey names normalized to canonical full forms (same riders, not switches). ML/current odds still null at T-3. Surface 'Dirt' -> track_condition null. Weather 40% (below threshold). No DM.",
-    "09-08-2026 21:04 ET pulse (18:00 run): NO MATERIAL CHANGE. Re-confirmed vs HRN live entries: all 9 identical to 15:02 draw baseline. ML not yet posted at T-4 evening; current_odds null. Surface 'Dirt' -> track_condition null. No DM.",
-    "09-08-2026 15:02 ET pulse: FIELD DRAWN (field_drawn false->true). 9 entered, post time 5:29pm ET, 1 mile, Churchill Downs. Confirmed by HRN entries + Churchill Downs advance article. ML not yet posted at draw-day afternoon. Drawn baseline established; scratch/jockey/odds-drift comparison begins from THIS state. Not a diff, no DM.",
-    "Probables->draw note (informational): of 11 prior probables, 5 did not enter (Admiralty, Fiestabowlforemike, Inshallah, Jokester, Title Worthy); 3 newly appeared in drawn field (Admiral's Order PP4, He Is No Lie PP8, Real Gone PP9). Salahudin (Baffert) is headliner/likely favorite.",
-    "Baseline established 09-05-2026 (T-7). Iroquois (G3) $300,000, 1 mile, Churchill Downs, race day 09-12-2026 - first Road to 2027 KY Derby points race. 25 nominated."
+    "09-09-2026 18:12 ET pulse (18:00 run): NO MATERIAL CHANGE. Cross-confirmed vs Equibase OFFICIAL entry (CD091226USA10): all 9 PPs/horses/jockeys/trainers/ML identical to draw baseline - no scratches (Equibase Scratches/Changes/Weather tab empty), no jockey switches, no new entries. Live Odds column still empty (win pools not open at T-3) -> current_odds null, odds-drift not computable this pulse. ML unchanged from 12:00 seed. Surface 'Dirt' (not a going rating) -> track_condition kept null. Weather NWS Louisville Sat 09-12 = 40% (unchanged, below 50% threshold, no flip). Race-week news scan (qdr:d) found no scratch/rider-change stories. Silent on no-change.",
+    "09-09-2026 13:46 ET pulse (12:00 run): NO MATERIAL CHANGE. All 9 PPs/horses/jockeys/trainers identical; SEEDED ML odds now posted (were null): PP7 Salahudin 8/5 fav, PP2 9/2, PP8 5/1, PP1 6/1, PP6 6/1, PP5 10/1, PP9 12/1, PP4 15/1, PP3 30/1. ML first-posting is a SEED, not a diff -> no DM. current_odds still empty at T-3. Track 'Dirt' -> null. Weather 40% -> no flip.",
+    "09-09-2026 (06:00 run) pulse: NO MATERIAL CHANGE. All 9 identical to 09-08 draw baseline. ML/current null at T-3. Track null. Weather 40%.",
+    "09-08-2026 15:02 ET: FIELD DRAWN (field_drawn false->true). 9 entered, post 5:29pm ET, 1 mile, Churchill Downs. Drawn baseline; scratch/jockey/odds-drift comparison begins from THIS state.",
+    "Probables->draw note: of 11 prior probables, 5 did not enter (Admiralty, Fiestabowlforemike, Inshallah, Jokester, Title Worthy); 3 newly appeared (Admiral's Order PP4, He Is No Lie PP8, Real Gone PP9). Salahudin (Baffert) headliner/favorite.",
+    "Baseline established 09-05-2026 (T-7). Iroquois (G3) $300,000, 1 mile, Churchill Downs, race day 09-12-2026 - first Road to 2027 KY Derby points race."
   ]
 }
