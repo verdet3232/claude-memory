@@ -1,6 +1,6 @@
 {
   "race": "Iroquois Stakes 2026",
-  "last_check_ts": "2026-09-08T15:02:00-04:00",
+  "last_check_ts": "2026-09-08T21:04:00-04:00",
   "field_drawn": true,
   "entries": [
     {"pp": 1, "horse": "Caribbean Life", "jockey": "Flavien Prat", "trainer": "Will Walden", "ml": null, "current_odds": null},
@@ -17,6 +17,7 @@
   "track_condition": null,
   "weather_forecast": null,
   "notes": [
+    "09-08-2026 21:04 ET pulse (18:00 run): NO MATERIAL CHANGE. Re-confirmed vs HRN live entries (maxAge:0): all 9 PPs, horses, and jockeys identical to 15:02 draw baseline. No scratches, no jockey switches, no new entries. Morning-line odds still NOT posted at HRN (ml empty) at T-4 evening; current_odds still null -> no odds-drift computable this pulse; odds to be seeded when posted. HRN shows surface 'Dirt' (not a going rating) -> track_condition kept null. kentuckyderby.com/races/iroquois returned stale/generic cached field (2023-era horses) and was disregarded. No DM sent.",
     "09-08-2026 15:02 ET pulse: FIELD DRAWN (field_drawn false->true). 9 entered, post time 5:29pm ET, 1 mile, Churchill Downs. Confirmed by HRN entries + Churchill Downs advance article. Morning-line odds not yet posted to HRN/CD feeds at draw-day afternoon; ml/current_odds to be seeded next pulse. Drawn baseline established; scratch/jockey/odds-drift comparison begins from THIS state. NOT a diff, so no DM sent (per framework: no DM off first-seen baseline).",
     "Probables->draw note (informational, not a material-change diff): of the 11 prior probables, 5 did not enter (Admiralty, Fiestabowlforemike, Inshallah, Jokester, Title Worthy); 3 newly appear in drawn field (Admiral's Order PP4, He Is No Lie PP8, Real Gone PP9). Salahudin (Baffert) is the headliner/likely favorite.",
     "09-08-2026 09:08 ET pulse: field still NOT drawn (draw expected midday Tue 09-08). Same 11 probables as 09-07.",
