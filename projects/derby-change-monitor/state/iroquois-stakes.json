@@ -1,6 +1,6 @@
 {
   "race": "Iroquois Stakes 2026",
-  "last_check_ts": "2026-09-09T18:12:00-04:00",
+  "last_check_ts": "2026-09-10T06:04:00-04:00",
   "field_drawn": true,
   "entries": [
     {
@@ -78,8 +78,9 @@
   ],
   "scratches": [],
   "track_condition": null,
-  "weather_forecast": "NWS Louisville (as of 09-09-2026 4:10pm ET update): Sat 09-12 day = chance of showers, tstorms possible after 2pm, partly sunny, high ~87F, precip 40%; Sat night 30%. 40% BELOW 50% threshold - no flip (unchanged from prior).",
+  "weather_forecast": "NWS Louisville (LMK, as of 09-10-2026 3:40am EDT update): Sat 09-12 race day = a chance of showers, tstorms possible after 11am, partly sunny, high ~85F, precip 50%; Sat night 10%. 50% is AT the 50% threshold (up from 40% prior) but NOT across it -> no flip; flagged as WATCH.",
   "notes": [
+    "09-10-2026 06:04 ET pulse (06:00 run): NO MATERIAL CHANGE (silent). Cross-confirmed vs Equibase OFFICIAL race page CD091226USA10 (fresh, maxAge=0, non-cached): all 9 PPs/horses/jockeys/trainers/ML identical to draw baseline - no scratches, no jockey switches, no new entry. Equibase Today's Race Day Changes shows Churchill Downs 'No current updates' (scratches/late changes typically post ~30min before 1st post on race day; expected empty at T-2). Live Odds column still empty (win pools not open at T-2) -> current_odds null, odds-drift not computable. Track 'Dirt' (no going rating) -> track_condition null. WEATHER MOVED but NO FLIP: NWS Louisville (LMK, updated 3:40am EDT 09-10) Sat 09-12 race day = 50% precip (a chance of showers, tstorms possible after 11am, high ~85F), UP from 40% baseline. 40->50 lands EXACTLY AT the 50% threshold, not across it; NWS still words it 'a chance' (not 'likely'), so per rule 'crossing 50% threshold' this is NOT a material flip - recorded as WATCH, now one tick from a flip; next pulse / T-1 brief should catch an actual crossing. Sat night 10%.",
     "09-09-2026 18:12 ET pulse (18:00 run): NO MATERIAL CHANGE. Cross-confirmed vs Equibase OFFICIAL entry (CD091226USA10): all 9 PPs/horses/jockeys/trainers/ML identical to draw baseline - no scratches (Equibase Scratches/Changes/Weather tab empty), no jockey switches, no new entries. Live Odds column still empty (win pools not open at T-3) -> current_odds null, odds-drift not computable this pulse. ML unchanged from 12:00 seed. Surface 'Dirt' (not a going rating) -> track_condition kept null. Weather NWS Louisville Sat 09-12 = 40% (unchanged, below 50% threshold, no flip). Race-week news scan (qdr:d) found no scratch/rider-change stories. Silent on no-change.",
     "09-09-2026 13:46 ET pulse (12:00 run): NO MATERIAL CHANGE. All 9 PPs/horses/jockeys/trainers identical; SEEDED ML odds now posted (were null): PP7 Salahudin 8/5 fav, PP2 9/2, PP8 5/1, PP1 6/1, PP6 6/1, PP5 10/1, PP9 12/1, PP4 15/1, PP3 30/1. ML first-posting is a SEED, not a diff -> no DM. current_odds still empty at T-3. Track 'Dirt' -> null. Weather 40% -> no flip.",
     "09-09-2026 (06:00 run) pulse: NO MATERIAL CHANGE. All 9 identical to 09-08 draw baseline. ML/current null at T-3. Track null. Weather 40%.",
