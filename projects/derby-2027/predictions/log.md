@@ -6,7 +6,21 @@ Covers the seven key 2027 Derby preps: Iroquois Stakes, Breeders Cup Juvenile, V
 
 | Race | Date | Predicted Win | Conf | Tags | Result | Win | Place | Show | Exacta | Beyer Δ |
 |---|---|---|---|---|---|---|---|---|---|---|
-| _empty — first prep race is Iroquois Stakes 09-12-2026_ | | | | | | | | | | |
+| Iroquois Stakes (G3) | 09-12-2026 | Salahudin (80.1, 8-5) | med | class-edge / jockey-change-risk / pace-favors-closers | _pending T+1_ | | | | | |
+
+---
+
+## Formal predictions
+
+### Iroquois Stakes · 09-12-2026
+Predicted win: Salahudin (composite 80.1, ML 8-5)
+Predicted place: Blessed Flyer
+Predicted show: Antivenom
+Exacta key: Salahudin OVER Blessed Flyer, Antivenom, Caribbean Life
+Confidence: med
+Rationale tags: class-edge-stakes-winner, highest-speed-fig (Blessed Flyer), pedigree-distance-fit, elite-connections, jockey-change-risk (Salahudin/Géroux-off), pace-setup-favors-closers, turf-to-dirt-switch (Real Goodbar), value-vs-underlay-favorite
+Predicted winning Beyer: 86
+T-1 note: ML favorite Salahudin loses rider Géroux (ICU after 09-10 fall); replacement TBD as of logging. Model keeps Salahudin on top on class but flags the favorite as vulnerable; Blessed Flyer is the value/upset play.
 
 ---
 
@@ -24,7 +38,7 @@ _Populated as predictions accumulate. Tags below 40% validation rate flagged for
 
 | Tag | Times used | Times validated | Validation rate |
 |---|---|---|---|
-| _none yet_ | | | |
+| _scored starting T+1 09-13-2026_ | | | |
 
 ---
 
