@@ -1,6 +1,6 @@
 {
   "race": "Iroquois Stakes 2026",
-  "last_check_ts": "2026-09-11T09:31:58-04:00",
+  "last_check_ts": "2026-09-11T12:08:27-04:00",
   "field_drawn": true,
   "entries": [
     {
@@ -77,9 +77,10 @@
     }
   ],
   "scratches": [],
-  "track_condition": null,
+  "track_condition": "Fast",
   "weather_forecast": "NWS Louisville (LMK, forecast updated 8:56am EDT 09-11-2026): Sat 09-12 race day = Showers and thunderstorms LIKELY before 8am, showers likely 8-11am, showers likely/possible tstorm after 11am; mostly cloudy, high ~84F; PRECIP 70 pct; qtr-half inch rain. Sat night 30 pct. FLIP: 50 pct 'chance' (WATCH) -> 70 pct 'likely' = crossed 50 pct threshold -> MATERIAL.",
   "notes": [
+    "09-11-2026 12:08 ET pulse (12:00 run, T-1): NO NEW MATERIAL CHANGE since the 09:31 baseline. Re-scraped Equibase full-card CD 09/12/2026 (maxAge=0): all 9 PPs/horses/jockeys/trainers/ML identical (PP1 Caribbean Life/Prat 6/1 ... PP7 Salahudin/Geroux 8/5 fav ... PP9 Real Gone/Asmussen 12/1); no scratches (verified via freeform query: all PP 1-9 present, none marked scratched; an interim JSON extraction returning only 8 PPs was a truncation artifact, confirmed NOT a scratch). Surface now posted 'Fast' (was null) -> within {null,Fast}, NOT material. Weather unchanged: NWS Louisville Sat 09-12 daytime still 70% 'showers likely/possible tstorm', high ~84F -> no new 50% crossing -> NOT material. Live win odds still not open -> current_odds null, odds-drift not computable. DM ACTION THIS RUN: DELIVERED the PENDING weather-flip DM from the 06:00 run (Slack send SUCCEEDED this run via Zapier->academicahq, ts 1789142885.701159, to Ryan USFH0KRLG); pending_dm.md cleared; ryan_slack_id.txt cached (USFH0KRLG).",
     "09-11-2026 06:0x ET pulse (06:00 run, T-1): MATERIAL CHANGE = WEATHER FLIP (first material change since draw). NWS Louisville (LMK) point forecast updated 8:56am EDT 09-11-2026: Sat 09-12 race day now 'Showers and thunderstorms likely before 8am, then showers likely ... possibly a thunderstorm after 11am. Mostly cloudy, high ~84F. Chance of precipitation 70%. New rainfall amounts between a quarter and half inch possible.' This CROSSES the 50 pct threshold: prior baseline was 50 pct 'a chance' (recorded WATCH, at-but-not-across on 09-10 pulses) -> now 70 pct 'likely' -> material weather flip per rule. Sat night 30 pct. Field UNCHANGED: cross-checked Equibase full-card CD 09/12/2026 entry page (maxAge=0) - all 9 PPs/horses/jockeys/trainers/ML identical to draw baseline (PP1 Caribbean Life/Prat 6/1 ... PP7 Salahudin/Geroux 8/5 fav ... PP9 Real Gone/Asmussen 12/1); no scratches (per-race 'Scratch' tokens are the betting-UI toggles, not actual scratches; race-day scratches typically post ~30min before 5:29pm ET post), no jockey switches, no new entry. Live Odds column still empty at T-1 -> current_odds null, odds-drift not computable. Surface 'Dirt', no going rating posted yet -> track_condition null (but 70 pct/quarter-half inch raises real chance of an off track by post; watch race-day brief). DM STATUS: Slack send BLOCKED this run - both the Zapier v2 executor (inspect_zapier_actions) and the direct Slack connector (slack_search_users) were AUTO-DECLINED because no approver was available in this scheduled run. pending_dm.md written; email fallback attempted. This is NOT a state-store failure.",
     "09-10-2026 12:04 ET pulse (12:00 run): NO MATERIAL CHANGE (silent). All 9 identical to draw baseline; scratches none; live odds empty; track null; weather 50 pct AT threshold (WATCH, not across).",
     "09-10-2026 06:04 ET pulse (06:00 run): NO MATERIAL CHANGE. All 9 identical; weather moved 40->50 pct = AT threshold, no flip, WATCH.",
