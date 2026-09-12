@@ -1,6 +1,6 @@
 {
   "race": "Iroquois Stakes 2026",
-  "last_check_ts": "2026-09-12T08:08:00-04:00",
+  "last_check_ts": "2026-09-12T14:10:45-04:00",
   "field_drawn": true,
   "entries": [
     {
@@ -44,14 +44,6 @@
       "current_odds": null
     },
     {
-      "pp": 6,
-      "horse": "Antivenom",
-      "jockey": "Jose L. Ortiz",
-      "trainer": "Mark E. Casse",
-      "ml": "6/1",
-      "current_odds": null
-    },
-    {
       "pp": 7,
       "horse": "Salahudin",
       "jockey": "Florent Geroux",
@@ -76,10 +68,20 @@
       "current_odds": null
     }
   ],
-  "scratches": [],
-  "track_condition": "Fast",
-  "weather_forecast": "NWS Louisville point forecast updated 6:21am EDT 09-12-2026: Today (race day) 50% chance of showers and thunderstorms, MAINLY AFTER 4pm; partly sunny, high ~84F. Tonight 30% (mainly before 7pm), low ~69F. 60%->50% does NOT cross the 50% threshold (lands AT it; 50% treated as WATCH per precedent, not a crossing); temp 82->84F <10F -> NOT material. Precip timing shifted earlier-window 11am-3pm -> now 'mainly after 4pm' (nearer the 5:29pm post) - informational.",
+  "scratches": [
+    {
+      "pp": 6,
+      "horse": "Antivenom",
+      "jockey": "Jose L. Ortiz",
+      "trainer": "Mark E. Casse",
+      "ml": "6/1",
+      "reason": "Scratched (Equibase race-day entries marked 'Scratched'; reason not posted)"
+    }
+  ],
+  "track_condition": null,
+  "weather_forecast": "NWS Louisville point forecast (updated ~12:06 EDT 09-12-2026, race day): Today (Sat) 20 pct showers/tstorms; Tonight 0 pct (patchy fog 1-2am). DOWNWARD FLIP from prior 70 pct 'likely' -> 20 pct = crossed 50 pct threshold -> MATERIAL. Earlier morning rain largely cleared ahead of 5:29pm ET post.",
   "notes": [
+    "09-12-2026 14:10 ET pulse (12:00 run, RACE DAY T-0): TWO MATERIAL CHANGES; ONE consolidated Slack DM SENT to Ryan (USFH0KRLG, academicahq; ts 1789236541.976489, ok:true). (1) SCRATCH: Antivenom (PP6, Jose Ortiz / Mark Casse, ML 6/1) - Equibase race-day full-card CD 09/12/2026 (maxAge=0) shows PP6 row marked 'SCR ... Scratched'. Verified against a verbatim direct-quote scrape of PP1-9: all other 8 horses (PP1-5,7-9) UNCHANGED (same PP/horse/jockey/ML); Real Gone (PP9, Asmussen 12/1) confirmed STILL ENTERED - two JSON extractions had dropped PP9 as a truncation artifact (the same failure mode flagged 09-11), resolved by the verbatim quote. 'Here Mi Song' surfaced in one JSON extraction's scratch list but is NOT a tracked entry (probable that never entered at the 09-08 draw) -> disregarded, not fabricated. Field now 8 (was 9). (2) WEATHER FLIP (downward): race-day precip 70 pct 'likely' (as recorded at the 06:00 run) -> 20 pct today per NWS Louisville (updated ~12:06 EDT) -> crossed 50 pct threshold downward -> material. No jockey switches; no new entries. Live win-odds column still EMPTY -> current_odds null, odds-drift not computable. Track condition NOT posted on entries page (was 'Fast') -> {null,Fast} bucket -> NOT material. State prior write was the 06:00 run (sha 49e8...); chained cleanly.",
     "09-12-2026 06:2x ET pulse (06:00 run, RACE DAY T-0): NO NEW MATERIAL CHANGE (silent). Re-scraped Equibase full-card CD 09/12/2026 (maxAge=0): all 9 PPs/horses/jockeys/trainers/ML IDENTICAL to draw baseline (PP1 Caribbean Life/Prat 6/1 ... PP7 Salahudin/Geroux 8/5 fav ... PP9 Real Gone/Asmussen 12/1). No scratches posted yet (race-day scratches typically post ~30min before 5:29pm ET post); no jockey switches; no new entry. Live win odds still not open at 06:00 -> current_odds null, odds-drift not computable. Track still 'Fast' (no off-track posted). WEATHER: NWS Louisville point forecast updated 6:21am EDT 09-12 -> Today 50% chance showers/tstorms MAINLY AFTER 4pm, high ~84F; tonight 30%. 60%->50% does NOT cross the 50% threshold (lands AT it; per established precedent 50% = WATCH, not a crossing); temp 82->84F (<10F). NOT material -> NO Slack DM. Note: precip timing shifted from 11am-3pm to 'mainly after 4pm' (closer to 5:29pm post) - informational only, watch 12:00 run for any off-track or a drop below 50%.",
     "09-11-2026 18:0x ET pulse (18:00 run, T-1): NO NEW MATERIAL CHANGE (silent). Field IDENTICAL to draw baseline; no scratches (interim 8-PP JSON was a truncation artifact, confirmed NOT a scratch); no jockey switches; no new entry. Live odds not open. Track 'Fast'. Weather 70->60% (no threshold cross, temp dip <10F) -> NOT material. No DM.",
     "09-11-2026 12:08 ET pulse (12:00 run, T-1): NO NEW MATERIAL CHANGE. All 9 identical; no scratches. DELIVERED the PENDING weather-flip DM from the 06:00 run (Slack SUCCEEDED via Zapier->academicahq, ts 1789142885.701159, to Ryan USFH0KRLG); pending_dm.md cleared; ryan_slack_id.txt cached (USFH0KRLG).",
