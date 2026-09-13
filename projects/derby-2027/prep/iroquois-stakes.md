@@ -109,3 +109,64 @@ Where a published free-source numeric was unavailable (exact Beyers, DI/Tomlinso
 
 _Milestone: T-1 final brief. Next update: T+1 result + scoring (Sun 09-13-2026)._
 _Updated by derby-prep-race-brief · 09-11-2026._
+
+---
+
+## RESULT (T+1 · 09-13-2026)
+
+**Winner: Salahudin** — won by a half-length. Broke slowly (6th of 7, per DRF), ranged up four wide out of trouble, took command past the furlong pole, then idled/"lost focus" late but held He Is No Lie safe. José Ortiz rode for Bob Baffert / Amr Zedan's Zedan Racing. Ortiz picked up the mount after regular rider Florent Géroux was hospitalized (stable condition) from a 09-10 Churchill spill — the exact T-1 flag the model priced in.
+
+**Field note:** ran as **7 starters** — **Antivenom (PP6) and Blessed Flyer (PP2) both scratched.** That directly voided the model's **place pick (Blessed Flyer)** and **show pick (Antivenom)**.
+
+### Order of finish (7 ran)
+
+| Fin | Horse | Jockey | Trainer | Derby pts | Payouts |
+|:---:|-------|--------|---------|:---:|---------|
+| 1 | Salahudin | J. Ortiz | Baffert | 10 | $3.98 / $2.82 / $2.10 |
+| 2 | He Is No Lie | Rosario | O'Neill | 5 | $4.26 / $2.54 |
+| 3 | Caribbean Life | Prat | Walden | 3 | $2.34 (show) |
+| 4 | Real Goodbar | Esquivel | McPeek | 2 | — |
+| 5 | Real Gone | K. Asmussen | Biancone | 1 | — |
+| 6 | Bearamour | Graham | K. Desormeaux | 0 | — |
+| 7 | Admiral's Order | Machado | Colebrook | 0 | — |
+| SCR | Blessed Flyer | (Hernandez Jr.) | Tomlinson | — | scratched |
+| SCR | Antivenom | (Casse barn) | Casse | — | scratched |
+
+Margins: Salahudin ½L over He Is No Lie; Caribbean Life 2¾L back in 3rd.
+
+### Chart / trip
+
+- Fractions: :22.85 · :46.35 · 1:10.90; final **1 mile in 1:36.54**, fast main track.
+- **Pace shape: honest.** Bearamour set it from the rail, He Is No Lie pressed and took over past three-quarters, and Salahudin closed from last-of-7 four wide. Race shape favored the off-pace runners **exactly as the T-1 pace projection called** (pace-favors-closers). Caribbean Life also closed from far back for 3rd.
+- Trip: Ortiz sacrificed ground (four paths off the fence) for a clean run; DRF noted Salahudin "always was going best, even while giving up so much ground."
+
+### Beyer (field 1 reconciliation)
+
+- **Official Beyer NOT yet released** as of Sun 09-13. Predicted winning Beyer was **86**. Winning time 1:36.54 (cf. 2025 Iroquois 1:36.59; same-card maiden Coach Pope ran the mile in 1:35.77 — faster than this stakes).
+- **Do not trust the early figures circulating:** a social "95" is attached to a wrong 1:22.62 time; the "105 Beyer" quoted from the DRF recap belongs to **U.S.S. Valor** in an unrelated tangent, **not** Salahudin.
+- **Beyer delta = PENDING.** Reconcile when DRF/BloodHorse publish official figures (typically Tue).
+
+### Field 8 — Odds movement (final)
+
+- Salahudin **8-5 ML → ~$3.98 win (≈ even money, ~4-5)** — bet down ~38%, **>30% move flagged** (market conviction firmed on the favorite; he was an underlay).
+- He Is No Lie 5-1 ML → heavily backed as the field shrank to seven (place $4.26).
+
+### Prediction scoring
+
+- **Win: HIT ✅** — Salahudin, the top composite (80.1) and ML favorite.
+- **Place: MISS ❌** — Blessed Flyer **scratched** (non-runner); actual 2nd was He Is No Lie.
+- **Show: MISS ❌** — Antivenom **scratched** (non-runner); actual 3rd was Caribbean Life.
+- **Exacta key: MISS ❌** — Salahudin OVER {Blessed Flyer, Antivenom, Caribbean Life}; runner-up He Is No Lie was not keyed, and two of the three keyed horses scratched.
+- **Beyer Δ: pending** (predicted 86; official unreleased).
+
+**Rationale-tag review:** class-edge-stakes-winner ✅ · pedigree-distance-fit ✅ (won going a mile, kept finding) · elite-connections ✅ · pace-setup-favors-closers ✅ · jockey-change-risk ❌ invalidated (Géroux off did not hurt; Ortiz replacement won) · value-vs-underlay-favorite ❌ invalidated (the underlay favorite won) · highest-speed-fig / Blessed Flyer ⚪ moot (scratched, never tested) · turf-to-dirt-switch / Real Goodbar ⚪ neutral (handled dirt, finished 4th for 2 pts).
+
+**Takeaway:** the headline call was correct on class, but the exotics were wrecked by two late scratches that removed both the place and show selections. Lesson logged for the trail: on small juvenile fields, discount place/show and exacta-under horses that carry scratch risk, and keep a live alternate for each exotic slot.
+
+## Sources (T+1)
+
+- DRF — "Salahudin improves to 3 for 3 with Iroquois Stakes triumph," Marcus Hersh, 09-12-2026
+- HorseRacingNation — "Churchill: Salahudin overcomes bad break to win Iroquois," 09-12-2026 (order of finish, fractions, payouts, scratches)
+
+_Milestone: T+1 result + scoring. Iroquois prep cycle complete._
+_Updated by derby-prep-race-brief · 09-13-2026._
