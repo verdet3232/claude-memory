@@ -2,7 +2,7 @@
   "race": "Breeders' Cup Juvenile 2026",
   "race_day": "10-30-2026",
   "host_track": "Keeneland",
-  "last_check_ts": "2026-10-19T09:15:00-04:00",
+  "last_check_ts": "2026-10-19T17:36:00-04:00",
   "field_drawn": false,
   "entries": [],
   "scratches": [],
@@ -15,6 +15,8 @@
     "Early probables/headliners (NOT official entries): Hughes (Del Mar Futurity winner), American History (Keeneland Futurity winner), The Puma (Gustavo Delgado Jr).",
     "09:11 ET pulse 10-17-2026 (T-13): no change. Field still not drawn; no official entries/scratches/odds/track condition yet.",
     "02:49 ET pulse 10-19-2026 (T-11, pre-entry deadline day): no change. Field still NOT drawn - no official entries/scratches/odds/track condition. First real comparison baseline forms once field is drawn 10-26.",
-    "09:15 ET pulse 10-19-2026 (T-11): no change. Reconfirmed via HRN Early Look, usracing, Keeneland barn notes (Oct 16-19): pre-entry deadline noon ET today, pre-entries announced Wed 10-21, post-position draw + morning line Mon 10-26. Field still NOT drawn - no official entries/scratches/odds/track condition. No material change."
-  ]
+    "09:15 ET pulse 10-19-2026 (T-11): no change. Reconfirmed via HRN Early Look, usracing, Keeneland barn notes (Oct 16-19): pre-entry deadline noon ET today, pre-entries announced Wed 10-21, post-position draw + morning line Mon 10-26. Field still NOT drawn - no official entries/scratches/odds/track condition. No material change.",
+    "17:36 ET pulse 10-19-2026 (T-11, evening run): no change. Reconfirmed via HRN Breeders' Cup 2026 Early Look + usracing (Oct 2026): pre-entries announced Wed 10-21, post-position draw + morning line Mon 10-26. Field still NOT drawn - no official entries/scratches/odds/track condition. No material change. First real diff baseline forms at the 10-26 draw."
+  ],
+  "sha": ""
 }
